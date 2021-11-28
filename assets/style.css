@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Exo|Lato:300');
+
+/* Overall style*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: Lato;
+    color: #000;
+}
+
+section {
+    clear: both;
+}
+
+h2 {
+    font-family: Exo;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #000;
+}
+
+/* Header and Nav Menu*/
+#logo {
+    float: left;
+    font-size: 280%;
+    margin-left: 10px;
+}
+
+#menu {
+    font-size: 110%;
+    list-style-type: none;
+    letter-spacing: 4px;
+}
+
+#logo,
+#menu {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    margin-right: 30px;
+}
