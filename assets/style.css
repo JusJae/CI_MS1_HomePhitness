@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Exo|Lato:300');
 
-/* Overall style*/
+/*---------------------------------------------------------- Overall style*/
 * {
     margin: 0;
     padding: 0;
@@ -16,14 +16,19 @@ section {
     clear: both;
 }
 
-h2 {
+h1 {
     font-family: Exo;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #000;
 }
+h2 {
+    font-family: Exo;
+    letter-spacing: 2px;
+    color: #000;
+}
 
-/* Header and Nav Menu*/
+/*----------------------------------------------------------------Header and Nav Menu*/
 #logo {
     float: left;
     font-size: 280%;
@@ -45,3 +50,5 @@ h2 {
     float: right;
     margin-right: 30px;
 }
+
+/*----------------------------------------------------------------Hero Section*/
