@@ -60,11 +60,16 @@ I have designed a website for an online gym, where they deliver remote workout g
 
 ## Technologies Used
 
+- Balsamiq
+
+- Visual Studio Code
+
 
 ## Testing
 
 
 The website was tested through W3C validator, 
+
 
 ## Deployment
 
@@ -74,7 +79,7 @@ The website has been deployed through Github Pages.
 ## Credits
 
 
-Bootstrap
+Bootstrap 4.2.1
 
 CI template for inspiration on README structure.
 
@@ -83,6 +88,8 @@ UnSplash
 Pexels
 
 Embed responsively
+
+MD Bootstrap 
 
 ## Acknowledgements
 
