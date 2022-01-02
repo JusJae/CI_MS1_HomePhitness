@@ -29,6 +29,7 @@ h2 {
 }
 
 /*----------------------------------------------------------------Header and Nav Menu*/
+
 #logo {
     float: left;
     font-size: 280%;
@@ -49,6 +50,19 @@ h2 {
 #menu li {
     float: right;
     margin-right: 30px;
+}
+
+
+.fa-1x {
+    font-size: 1.5rem;
+}
+
+.navbar-toggler.toggler-example {
+    cursor: pointer;
+}
+
+.hamburger-menu {
+    color: #0A38F5;
 }
 
 /*----------------------------------------------------------------Hero Section*/
@@ -99,45 +113,6 @@ h2 {
     height: 500px;
 }
 
-#welcome-burn {
-    padding-top: 20px;
-    width: 33%;
-    float: left;
-    text-align: center;
-    
-}
-
-#welcome-build {
-    padding-top: 20px;
-    width: 33%;
-    float: left;
-    text-align: center;
-}
-
-#welcome-stretch {
-   padding-top: 20px;
-   width: 33%;
-   float: left;
-   text-align: center;
-}
-
-#circle-container {
-    width: 300px;
-    height: 300px;
-    padding: 30px;
-    border-style: solid;
-    border-color: #ccc;
-    border-width: 1px;
-    border-radius: 50%;
-    margin: 0 auto;
-}
-
-#circle-burn-bg {
-    background-image: url("https://github.com/JusJae/CI_MS1_Phitness/blob/main/assets/images/pexels-mart-production-8033089.jpg") no-repeat center center;
-    height: 100%;
-    border-radius: 50%;
-}
-*/
 /*-------------------------------------------------------------- Test Responsive Card design*/
 
 @media (max-width: 767px) {
@@ -186,10 +161,10 @@ h2 {
 
     .column-2,
     .column-1 {
-        width: 33%;
-        margin: 15px;
-    }
+    width: 33%;
+            
 }
+/*----------------------------------------------------------------Information Section*/
 
 /*----------------------------------------------------------------Footer Section*/
 
