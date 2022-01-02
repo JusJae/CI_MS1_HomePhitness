@@ -142,13 +142,28 @@ h2 {
 
 @media (max-width: 767px) {
 
+    #welcome h2 {
+        margin-top: 20px;
+        padding-top: 10px;
+        text-align: center;
+        font-size: 35px;
+    }
     .column-1,
     .column-2 {
         width: 100%;
+        margin: 15px;
     }
+
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+    #welcome h2 {
+        margin-top: 20px;
+        padding-top: 10px;
+        text-align: center;
+        font-size: 35px;
+    }
+    
     .column-1 {
         width: 50%;
     }
@@ -160,6 +175,13 @@ h2 {
 
 @media (min-width: 992px) {
 
+    #welcome h2 {
+        margin-top: 20px;
+        padding-top: 10px;
+        text-align: center;
+        font-size: 35px;
+    }
+    
     .column-2,
     .column-1 {
         width: 33%;
