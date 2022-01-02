@@ -88,7 +88,7 @@ h2 {
 }
 
 /*------------------------------Welcome circles*/
-
+/*
 #welcome h2 {
     margin-top: 8px;
     padding-top: 8px;
@@ -137,6 +137,35 @@ h2 {
     height: 100%;
     border-radius: 50%;
 }
+*/
+/*-------------------------------------------------------------- Test Responsive Card design*/
+
+@media (max-width: 767px) {
+
+    .column-1,
+    .column-2 {
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .column-1 {
+        width: 50%;
+    }
+
+    .column-2 {
+        width: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .column-2,
+    .column-1 {
+        width: 33%;
+    }
+}
+
 /*----------------------------------------------------------------Footer Section*/
 
 footer {
@@ -167,21 +196,21 @@ h6 {
 
 
 /* Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) {
+/*@media (min-width: 576px) {
     ...
 }
 
 /*Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) {
+/*@media (min-width: 768px) {
     ...
 }
 
 /* Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) {
+/*@media (min-width: 992px) {
     ...
 }
 
 /* Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) {
+/*@media (min-width: 1200px) {
     ...
 }
