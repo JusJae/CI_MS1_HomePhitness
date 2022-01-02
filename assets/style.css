@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Exo|Lato:300');
+@import url('https://fonts.googleapis.com/css?family=Exo|Lato:300|Oswald');
 
 /*---------------------------------------------------------- Overall style*/
 * {
@@ -52,9 +52,113 @@ h2 {
 }
 
 /*----------------------------------------------------------------Hero Section*/
+
 #hero-image {
     height: 600px;
     width: 100%;
     background: url("https://images.pexels.com/photos/7236570/pexels-photo-7236570.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500") no-repeat center center;
+    padding-bottom: 20px;
+}
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#cover-text,
+#cover-text h2 {
+    color: #001d3d;
+}
+
+#cover-text {
+    font-size: 130%;
+    font-family: Oswald,;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    width: 275px;
+    height: 200px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgba(255,214,10, .7);
+    bottom: 50px;
+    right: 450px;
+    position: absolute;
+}
+
+/*------------------------------Welcome circles*/
+
+#welcome h2 {
+    margin-top: 8px;
+    padding-top: 8px;
+    text-align: center;
+}
+
+#welcome {
+    height: 500px;
+}
+
+#welcome-burn {
+    padding-top: 20px;
+    width: 33%;
+    float: left;
+    text-align: center;
     
+}
+
+#welcome-build {
+    padding-top: 20px;
+    width: 33%;
+    float: left;
+    text-align: center;
+}
+
+#welcome-stretch {
+   padding-top: 20px;
+   width: 33%;
+   float: left;
+   text-align: center;
+}
+
+#circle-container {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#circle-burn-bg {
+    background-image: url("https://github.com/JusJae/CI_MS1_Phitness/blob/main/assets/images/pexels-mart-production-8033089.jpg") no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
+/*----------------------------------------------------------------Footer Section*/
+
+footer {
+    height: 150px;
+    background-color: #001d3d;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 100%;
+    margin: 1%;
+    padding: 1%;
+    color: #777777;
+}
+h6 {
+    text-align: center;
+    font-family: Lato;
 }
