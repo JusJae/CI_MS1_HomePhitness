@@ -30,29 +30,6 @@ h2 {
 
 /*----------------------------------------------------------------Header and Nav Menu*/
 
-#logo {
-    float: left;
-    font-size: 280%;
-    margin-left: 10px;
-}
-
-#menu {
-    font-size: 110%;
-    list-style-type: none;
-    letter-spacing: 4px;
-}
-
-#logo,
-#menu {
-    line-height: 75px;
-}
-
-#menu li {
-    float: right;
-    margin-right: 30px;
-}
-
-
 .fa-1x {
     font-size: 1.5rem;
 }
@@ -66,6 +43,7 @@ h2 {
 }
 
 /*----------------------------------------------------------------Hero Section*/
+
 
 #hero-image {
     height: 600px;
