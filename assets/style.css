@@ -50,7 +50,7 @@ h3 {
 }
 
 .hamburger-menu {
-    color: #0A38F5;
+    color: #000;
 }
 
 /*----------------------------------------------------------------Hero Section*/
@@ -114,6 +114,17 @@ h3 {
         margin: 15px;
     }
 
+    .fa-1x {
+        font-size: 1.5rem;
+    }
+
+    .navbar-toggler.toggler-example {
+        cursor: pointer;
+    }
+    .hamburger-menu {
+        color: #000;
+    }
+
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -139,6 +150,18 @@ h3 {
         width: 100%;
         margin: 15px;
     }
+
+    .fa-1x {
+        font-size: 1.5rem;
+    }
+
+    .navbar-toggler.toggler-example {
+        cursor: pointer;
+    }
+
+    .hamburger-menu {
+        color: #000;
+    }
 }
 
 @media (min-width: 992px) {
@@ -156,7 +179,7 @@ h3 {
         text-align: center;
         font-size: 25px;
     }
-    
+
     .column-2,
     .column-1 {
     width: 33%;
@@ -165,8 +188,9 @@ h3 {
 }
 /*----------------------------------------------------------------Exercises Page*/
 
-.card {
-
+.col {
+    display: flex;
+    gap: 10px 10px;
 }
 
 /*----------------------------------------------------------------Footer Section*/
