@@ -110,7 +110,7 @@ h2 {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-    #welcome h2 {
+    h2 {
         margin-top: 20px;
         padding-top: 10px;
         text-align: center;
@@ -130,7 +130,7 @@ h2 {
 
 @media (min-width: 992px) {
 
-    #welcome h2 {
+    h2 {
         margin-top: 20px;
         padding-top: 10px;
         text-align: center;
