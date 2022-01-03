@@ -7,9 +7,15 @@
     border: 0;
 }
 
+html {
+    position: relative;
+    min-height: 100%;
+}
+
 body {
     font-family: Lato;
     color: #000;
+    margin-bottom: 100px;
 }
 
 section {
@@ -146,8 +152,14 @@ h2 {
 
 /*----------------------------------------------------------------Footer Section*/
 
-footer {
-    height: 150px;
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 100px;
+    line-height: 50px;
+    /* Vertically center the text there */
     background-color: #001d3d;
 }
 
