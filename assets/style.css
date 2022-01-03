@@ -95,7 +95,7 @@ h2 {
 
 @media (max-width: 767px) {
 
-    #welcome h2 {
+    h2 {
         margin-top: 20px;
         padding-top: 10px;
         text-align: center;
