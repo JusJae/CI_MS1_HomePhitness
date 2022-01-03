@@ -191,6 +191,7 @@ h3 {
 .col {
     display: flex;
     gap: 10px 10px;
+    justify-content: space-between;
 }
 
 /*----------------------------------------------------------------Footer Section*/
