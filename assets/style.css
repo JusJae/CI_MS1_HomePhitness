@@ -41,16 +41,8 @@ h3 {
 
 /*----------------------------------------------------------------Header and Nav Menu*/
 
-.fa-1x {
-    font-size: 1.5rem;
-}
-
 .navbar-toggler.toggler-example {
     cursor: pointer;
-}
-
-.hamburger-menu {
-    color: #000;
 }
 
 /*----------------------------------------------------------------Hero Section*/
@@ -114,15 +106,8 @@ h3 {
         margin: 15px;
     }
 
-    .fa-1x {
-        font-size: 1.5rem;
-    }
-
     .navbar-toggler.toggler-example {
         cursor: pointer;
-    }
-    .hamburger-menu {
-        color: #000;
     }
 
 }
@@ -143,7 +128,7 @@ h3 {
     }
     .column-1 {
         width: 50%;
-        margin: 15px;
+        
         
     }
 
@@ -152,17 +137,21 @@ h3 {
         margin: 15px;
     }
 
-    .fa-1x {
-        font-size: 1.5rem;
-    }
-
+    
     .navbar-toggler.toggler-example {
         cursor: pointer;
     }
 
-    .hamburger-menu {
-        color: #000;
-    }
+.social-networks li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 100%;
+    margin: 1%;
+    padding: 1%;
+    color: #777777;
+}
 }
 
 @media (min-width: 992px) {
