@@ -243,6 +243,13 @@ div .card-img-top {
     height: 300px;
 }
 
+.card-title {
+    font-family: Exo;
+}
+
+.about-text {
+    text-align: center;
+}
 /*----------------------------------------------------------------Footer Section*/
 
 .footer {
