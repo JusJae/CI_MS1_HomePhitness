@@ -81,7 +81,7 @@
             </div>
         </div>
         
-        <div class="container-fluid">
+        <div class="card mx-auto d-block">
             <div id="contact-form">
                 <section class="form-section">
                     <form class="contact-form" method="POST" action="https://formdump.codeinstitute.net/">
@@ -92,16 +92,18 @@
                         <input id="lname" class="text-input" type="text" name="last_name" required />
                         <label for="email">Email Address</label>
                         <input id="email" class="text-input" type="email" name="email_address" required />
-                        <label for="burn">Burn</label>
+                        <h5>Exercises you come to Home Phitness for:</h5>
                         <input id="burn" type="radio" name="workout_preference" value="burn" required />
-                        <label for="build">Build</label>
+                        <label for="burn">Burn</label><br>
                         <input id="build" type="radio" name="workout_preference" value="build" />
-                        <label for="stretch">Stretch</label>
+                        <label for="build">Build</label><br>
                         <input id="stretch" type="radio" name="workout_preference" value="stretch" />
-                        <label for="all">All 3</label>
-                        <input id="all" type="radio" name="workout_preference" value="all" />
+                        <label for="stretch">Stretch</label><br>
+                        <input id="combo" type="radio" name="workout_preference" value="combo" />
+                        <label for="combo">Combination of above</label>
                         <br>
-                        <label for="message">Message</label>
+                        <br>
+                        <label for="message">Please Enter your message below:</label>
                         <br>
                         <textarea id="message" name="message" required rows="8" cols="40"></textarea>
                         <br>
