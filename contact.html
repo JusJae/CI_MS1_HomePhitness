@@ -26,44 +26,47 @@
 </head>
 
 <body>
-    <!---------------------- Logo and Navbar from Bootstrap 4.2.1-------------------->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="index.html">
-            <img src="assets/images/logo-home-phitness.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
+
+<!---------------------- Logo and Navbar from Bootstrap 4.2.1-------------------->
+<nav class="navbar navbar-expand-lg navbar-expand-md navbar-light my-nav">
+    <div class="container-fluid">
+        <a class="navbar-brand my-logo fs-2" href="#">
+            <img src="assets/images/logo-home-phitness.jpg" width="30" height="30" class="d-inline-block align-top"
+                alt="Logo">
             Home Phitness
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
+        <div class="collapse navbar-collapse my-nav-collapse nav-pills" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link menu-link" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="about.html">About Us</a>
+                    <a class="nav-link menu-link" href="about.html">About Us</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="exercises.html
-                        " id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true"
-                        aria-expanded="false">
+                    <a class="nav-link menu-link dropdown-toggle" href="exercises.html" id="navbarDropdownMenuLink"
+                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Exercises
                     </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <div class="dropdown-menu menu-link" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item" href="exercises.html">Exercises</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Burn</a>
-                        <a class="dropdown-item" href="#">Build</a>
-                        <a class="dropdown-item" href="#">Stretch</a>
+                        <a class="dropdown-item" href="exercises.html">Burn</a>
+                        <a class="dropdown-item" href="exercises.html">Build</a>
+                        <a class="dropdown-item" href="exercises.html">Stretch</a>
                     </div>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="contact.html">Contact Us</a>
+                <li class="nav-item menu-link active" aria-current="page">
+                    <a class="nav-link" href="contact.html"><span class="sr-only">(current)</span>Contact Us</a>
                 </li>
             </ul>
         </div>
-    </nav>
+    </div>
+</nav>
 <!------------------------------------ Header and Contact Form and Image -->
     <main>
         <div class="">
