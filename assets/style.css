@@ -89,17 +89,17 @@ h3 {
     height: 900px;
 }
 
-.signup-form {
+.contact-form {
     margin-top: 100px;
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
     max-width: auto !important;
-    position: absolute;
+    position: relative !important;
     left: 10%;
     padding: 20px;
 }
 
-.signup-form>h2 {
+.contact-form>h2 {
     color: #fafafa;
     margin-bottom: 20px;
 }

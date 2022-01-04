@@ -32,9 +32,7 @@
     <div class="container-fluid">
         <a class="navbar-brand my-logo fs-2" href="#">
             <img src="assets/images/logo-home-phitness.jpg" width="30" height="30" class="d-inline-block align-top"
-                alt="Logo">
-            Home Phitness
-        </a>
+                alt="Logo">Home Phitness</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
             aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -48,8 +46,9 @@
                     <a class="nav-link menu-link" href="about.html">About Us</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link menu-link dropdown-toggle" href="exercises.html" id="navbarDropdownMenuLink"
-                        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a class="nav-link menu-link dropdown-toggle" href="exercises.html
+                        " id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">
                         Exercises
                     </a>
                     <div class="dropdown-menu menu-link" aria-labelledby="navbarDropdownMenuLink">
@@ -60,29 +59,33 @@
                         <a class="dropdown-item" href="exercises.html">Stretch</a>
                     </div>
                 </li>
-                <li class="nav-item menu-link active" aria-current="page">
-                    <a class="nav-link" href="contact.html"><span class="sr-only">(current)</span>Contact Us</a>
+                <li class="nav-item">
+                    <a class="nav-link menu-link active" aria-current="page" href="contact.html"><span class="sr-only">(current)</span>
+                        Contact Us</a>
                 </li>
             </ul>
         </div>
     </div>
 </nav>
+
 <!------------------------------------ Header and Contact Form and Image -->
     <main>
-        <div class="">
+        <div class="container" id="page-title">
         <h2>Contact Us</h2>
         </div>
-        <div>
-            
+        <div class="">
+            <div class="">
+                <p>If you are interested in getting further support on what exercises you can complete at home.</p>
+                        <p>Do not hesitate to get in contact with our team today.</p>
+                        <p>We will do our best to answer any of your question and to guide you to the write home workout plan to help you achieve your goals.</p>
+            </div>
+        </div>
+        
+        <div class="container-fluid">
             <div id="contact-form">
                 <section class="form-section">
-                    <form class="signup-form" method="POST" action="https://formdump.codeinstitute.net/">
-                        <h2>Got a question? Get in contact TODAY! <i class="fas fa-heartbeat"></i> </h2>
-                        
-                        <p>If you are interested in getting further support on what exercises you can complete at home.
-                            Do not hesitate to get in contact with our team today.</p>
-                        <p>We will do our best to answer any of your question and to guide you to the write home workout plan to help you
-                            achieve your goals.</p>
+                    <form class="contact-form" method="POST" action="https://formdump.codeinstitute.net/">
+                        <h2>Got a question? Get in contact TODAY!</h2>
                         <label for="fname">First Name</label>
                         <input id="fname" class="text-input" type="text" name="first_name" required />
                         <label for="lname">Last Name</label>
@@ -91,13 +94,18 @@
                         <input id="email" class="text-input" type="email" name="email_address" required />
                         <label for="burn">Burn</label>
                         <input id="burn" type="radio" name="workout_preference" value="burn" required />
-                        <label for="trail">Trail</label>
-                        <input id="trail" type="radio" name="workout_preference" value="trail" />
-                        <label for="both">Both</label>
-                        <input id="both" type="radio" name="workout_preference" value="both" />
+                        <label for="build">Build</label>
+                        <input id="build" type="radio" name="workout_preference" value="build" />
+                        <label for="stretch">Stretch</label>
+                        <input id="stretch" type="radio" name="workout_preference" value="stretch" />
+                        <label for="all">All 3</label>
+                        <input id="all" type="radio" name="workout_preference" value="all" />
+                        <br>
+                        <label for="message">Message</label>
+                        <br>
                         <textarea id="message" name="message" required rows="8" cols="40"></textarea>
                         <br>
-                        <input class="join-button" type="submit" value="Let's Run!" />
+                        <input class="join-button" type="submit" value="Submit Message" />
                     </form>
                 </section>
             </div>
