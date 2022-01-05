@@ -71,7 +71,7 @@ h3 {
 
 /*----------------------------------------------------------------Home page*/
 .card-title {
-    background-color: rgba(255, 255, 255, 0.7)
+    background-color: rgba(255, 255, 255, 0.7);
     letter-spacing: 2px;
 }
 
@@ -105,7 +105,8 @@ h3 {
 }
 
 div .card-img-top {
-    width: 100% height: 300px;
+    width: 100%;
+    height: 300px;
 }
 
 .card-title {
@@ -116,7 +117,9 @@ div .card-img-top {
     text-align: center;
 }
 /*----------------------------------------------------------------About Page*/
-
+ .contact-form {
+    padding-top: 10px;
+ }
 
 /*-------------------------------------------------------------- Contact Form */
 
@@ -290,7 +293,7 @@ div .card-img-top {
 }
 
 .social-networks i {
-    font-size: 100%;
+    font-size: 130%;
     margin: 1%;
     padding: 1%;
     color: #777777;
