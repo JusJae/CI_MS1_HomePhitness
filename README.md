@@ -71,6 +71,12 @@ I have designed a website for an online gym, where they deliver remote workout g
 
 The website was tested through W3C validator for HTML and CSS, WebAIM, Lighthouse
 
+### W3C Jigsaw CSS
+http://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjusjae.github.io%2FCI_MS1_Phitness&profile=css3svg&usermedium=all&warning=1&vextwarning=
+or
+http://jigsaw.w3.org/css-validator/check/referer (for HTML/XML document only)
+
+
 ## Deployment
 
 The website has been deployed through Github Pages.
