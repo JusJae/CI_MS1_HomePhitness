@@ -1,5 +1,7 @@
 # Home Phitness
 
+Live Preview: [https://jusjae.github.io/CI_MS1_Phitness]
+
 # **Milestone Project 1**
 
 > Website for a home workouts.
@@ -22,27 +24,28 @@ I have designed a website for an online gym, where they deliver remote workout g
 
 ### Design
 
- Fonts - Exo | Roboto
+ Fonts - Exo | Lato | Oswald
 
- Colours - "#000814","#001d3d","#003566","#ffc300","#ffd60a"
-
-### Skeleton
-
+ Colours -
+    CSS HEX
+    --black: #000000;
+    --white: #ffffffff;
+    --: #000814;
+    --: #003566
+    --star-command-blue: #0077b6ff;
+    --maximum-yellow-red: #f5b82eff;
+    --: #ffc300;
 
 #### Wireframes
-
 
 ##### Web View
 
 <details>
-<summary>Eb ViewHome Page</summary>
-<img src="/Users/Jae/Documents/GitHub/CI_MS1_Phitness/docs/wireframes/wireframe-web_view.png">
+<summary>View Home Page</summary>
+<img src="/Users/Jae/Documents/GitHub/CI_MS1_Phitness/docs/wireframes/wireframes-web_view.png">
 </details>
 
-
 ##### Mobile view
-
-
 
 ### Surface
 
@@ -66,7 +69,7 @@ I have designed a website for an online gym, where they deliver remote workout g
 
 ## Testing
 
-The website was tested through W3C validator,
+The website was tested through W3C validator for HTML and CSS, WebAIM, Lighthouse
 
 ## Deployment
 
