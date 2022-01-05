@@ -45,7 +45,6 @@ h3 {
     cursor: pointer;
 }
 
-
 /* keep links to right on navbar */
 .my-nav-collapse {
     flex-grow: 0;
@@ -66,10 +65,80 @@ h3 {
     color: #000;
 }
 
-.navbar .nav-pills .menu-link:hover :not(.active) {
+.navbar .nav-pills .menu-link:hover :not:active {
     color: #001d3d;
 }
 
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(0, 0, 0);
+    border: solid 0.5px rgba(255, 195, 0, .7);
+}
+.dropdown-toggle::after {
+
+    display: inline-block;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+
+}
+
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+
+    color: rgb(0, 0, 0);
+    border: solid 0.5px rgba(255, 195, 0, .7);
+
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: rgba(0, 0, 0, .9);
+
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgba(0, 0, 0, .7);
+
+}
+
+.navbar .nav-pills .menu-link {
+    color: #000;
+    text-decoration: none;
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, 1);
+
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+    padding-right: .5rem;
+    padding-left: .5rem;
+
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #0077b6;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+    color: #16181b;
+    text-decoration: none;
+    background-color: rgba(255, 214, 10, .7);
+}
 /*----------------------------------------------------------------Home page*/
 div .card-img-overlay>h2 {
     background-color: rgba(0,0,0, 0.7);
@@ -113,12 +182,31 @@ div .card-img-overlay>h2 {
 }
 
 .row .card {
-     border: solid 1px #000
+    border: solid 1px #000
 }
 
 .card-img-top {
     width: 100%;
 }
+
+/*----------------------------------------------------------------About Page*/
+#about-container .container-fluid {
+    padding-bottom: 10px;
+}
+
+.container .about-text {
+    border: solid 1px #000;
+    /*padding-bottom: 10px;*/
+}
+
+#about-card {
+    padding-bottom: 2rem;
+}
+
+.about-text {
+    text-align: center;
+}
+
 /*----------------------------------------------------------------Exercises Page*/
 
 .col {
@@ -131,18 +219,12 @@ div .card-img-overlay>h2 {
 div .card-img-top {
     width: 100%;
     height: 300px;
+    margin-bottom: 2rem;
 }
 
 .card-title {
     font-family: Exo;
 }
-
-.about-text {
-    text-align: center;
-}
-/*----------------------------------------------------------------About Page*/
- 
-
 
 /*-------------------------------------------------------------- Contact Form */
 
