@@ -117,9 +117,8 @@ div .card-img-top {
     text-align: center;
 }
 /*----------------------------------------------------------------About Page*/
- .contact-form {
-    padding-top: 10px;
- }
+ 
+
 
 /*-------------------------------------------------------------- Contact Form */
 
@@ -136,7 +135,7 @@ div .card-img-top {
     border: solid 5px yellow;
 }
 .contact-form {
-    
+    margin: 10px;
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
     max-width: auto !important;
