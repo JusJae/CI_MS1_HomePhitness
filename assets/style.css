@@ -206,9 +206,23 @@ div .card-img-top {
         margin: 15px;
     }
 
-    .navbar-toggler.toggler-example {
-        cursor: pointer;
+    .card-title .card-img-overlay {
+        background-color: rgba(255, 255, 255, 0.7);
+        letter-spacing: 1px;
+        top: 100%;
+        left: 50%;
     }
+
+    .card-img-overlay h3 {
+        font-size: 10px;
+        width: 50%%;
+        text-align: center;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
 
 }
 
