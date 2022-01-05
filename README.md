@@ -30,11 +30,11 @@ I have designed a website for an online gym, where they deliver remote workout g
     CSS HEX
     --black: #000000;
     --white: #ffffffff;
-    --: #000814;
-    --: #003566
+    --rich-black-fogra: #000814;
+    --prussian-blue: #003566
     --star-command-blue: #0077b6ff;
-    --maximum-yellow-red: #f5b82eff;
-    --: #ffc300;
+    --mikado-yellow: #ffc300;
+    --oxford-blue":#001d3d;
 
 #### Wireframes
 
