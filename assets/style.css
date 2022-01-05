@@ -24,7 +24,7 @@ section {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: exo;
-    color: #000;
+    
 }
 
 h1 {
@@ -66,10 +66,6 @@ h3 {
     color: #000;
 }
 
-.navbar .nav-pills .menu-link:hover :not:active {
-    color: #001d3d;
-}
-
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
     color: rgb(0, 0, 0);
@@ -87,7 +83,6 @@ h3 {
     border-left: .3em solid transparent;
 
 }
-
 
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
@@ -151,7 +146,7 @@ div .card-img-overlay>h1 {
     border-radius: 5px;
 }
 
-.card-img-overlay h3 {
+.card-img-overlay h2 {
     background-color: rgba(255, 214, 10, .7);
     font-family: Oswald;
     text-transform: uppercase;
@@ -257,7 +252,7 @@ div .card-img-top {
     margin: 10px;
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
-    max-width: auto !important;
+    /*max-width: auto !important;*/
     position: relative !important;
     padding: 20px;
 }
@@ -432,11 +427,12 @@ div .card-img-top {
     font-size: 130%;
     margin: 1%;
     padding: 1%;
-    color: #777777;
+    color: #ffffff;
 }
 h6 {
     text-align: center;
     font-family: Lato;
+    color: #ffffff;
 }
 
 
