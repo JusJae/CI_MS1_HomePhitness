@@ -130,6 +130,9 @@ div .card-img-top {
     height: 900px;
 }
 
+.card mx-auto d-block {
+    ;
+}
 .card .contact-form {
     margin: 0;
     border: solid 5px yellow;
