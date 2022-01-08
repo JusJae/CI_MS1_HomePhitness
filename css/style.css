@@ -193,12 +193,12 @@ div .card-img-overlay>h1 {
     padding-bottom: 10px;
 }
 
-#about-container h1 {
-    background-color: rgba(0,0,0, 0.7);
+.page-header h1 {
+    background-color: rgba(0,0,0, 0.75);
     color: rgba(255, 214, 10, 1);
     text-align: center;
     letter-spacing: 2px;
-    font-size: 400%;
+    font-size: 200%;
     border: solid 1px rgba(255, 214, 10, .7);
     border-radius: 5px;
 }
