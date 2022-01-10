@@ -218,6 +218,11 @@ div .card-img-overlay>h1 {
 }
 
 /*----------------------------------------------------------------Exercises Page*/
+.exercise-text {
+	text-align: center;
+	border-radius: 5px;
+	border: 1px solid #000;
+}
 
 .col {
     display: flex;
@@ -235,6 +240,40 @@ div .card-img-top {
     font-family: Exo;
 }
 
+.container .page-sub-header {
+	display: flex;
+	justify-content: center;
+}
+
+.page-sub-header #burn-deck {
+	display: block;
+	margin: 10px;
+	color: white;
+	text-align: center;
+	background-color: red;
+	border: 1px solid red;
+	border-radius: 5px;
+}
+
+.page-sub-header #build-deck {
+	display: block;
+	margin: 10px;
+	color: white;
+	text-align: center;
+	background-color: #ffc300;
+	border: 1px solid #ffc300;
+	border-radius: 5px;
+}
+
+.page-sub-header #stretch-deck {
+	display: block;
+	margin: 10px;
+	color: white;
+	text-align: center;
+	background-color: teal;
+	border: 1px solid teal;
+	border-radius: 5px;
+}
 /*-------------------------------------------------------------- Contact Form */
 .card> .contact-info{
     padding: 5px;
@@ -446,4 +485,8 @@ h6 {
     text-align: center;
     font-family: Lato;
     color: #ffffff;
+}
+
+.page-footer {
+	display: inline-block;
 }
