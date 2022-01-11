@@ -327,8 +327,7 @@ small {
 .contact-form {
     margin: 10px;
     color: #fff;
-    background-color: rgba(60, 60, 60, 0.6);
-    /*max-width: auto !important;*/
+    background-color: rgba(60, 60, 60, 0.7);
     position: relative !important;
     padding: 20px;
 }
@@ -352,11 +351,19 @@ small {
     border: #ffc300;
 }
 
-.join-button {
+.contact-form label {
+    font-family: 'Exo';
+}
+.contact-form h5 {
+    text-align: left;
+}
+
+.submit-button {
     margin-top: 20px;
-    border-radius: 2px;
+    border-radius: 5px;
     padding: 15px 32px 15px 32px;
     text-align: center;
+    font-family: 'Oswald';
     font-size: 100%;
     background-color: #ffc300;
     color: #000814;
@@ -364,7 +371,7 @@ small {
     border: solid 0.5px #000814
 }
 
-.join-button:hover {
+.submit-button:hover {
     background-color: #fafafa;
     color: #0077b6;
 }
@@ -404,7 +411,6 @@ small {
         width: 50%;
         text-align: center;
         position: absolute;
-        transform: translate(-50%, -100%);
         padding: 2px;
     }
 
@@ -478,7 +484,7 @@ footer {
     text-align: center;
     bottom: 100;
     color: #fff;
-    background-color: #001d3d;
+    background-color: rgba(0, 0, 0, .7)
 }
 
 
