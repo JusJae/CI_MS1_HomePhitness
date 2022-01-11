@@ -296,6 +296,9 @@ links to the Homepage, About page, Exercises and Contact us page
 
 - WAVE Web AIM Accessibility Evaluation Tool:
     This tool was used to test errors in accessibility such as the color contrast, ARIA for this project.
+
+- Image Compressor
+    This online tool was used to compress the image file to optimize the sites loading time.
     
 - Am I Responsive:
     Am I Responsive was used to create the header image for the README file to show the site in its responsive format.
