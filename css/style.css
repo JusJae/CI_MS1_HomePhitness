@@ -219,9 +219,15 @@ div .card-img-overlay>h1 {
 
 /*----------------------------------------------------------------Exercises Page*/
 .exercise-text {
-	text-align: center;
-	border-radius: 5px;
-	border: 1px solid #000;
+    border: solid 1px #000;
+    margin: 15px;
+    border-radius: 5px;
+    justify-content: center;
+    width: inherit;
+}
+
+.exercise-text {
+    text-align: center;
 }
 
 .col {
@@ -238,6 +244,18 @@ div .card-img-top {
 
 .card-title {
     font-family: Exo;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    padding: 1px;
+}
+
+.card-text {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+small {
+    color:#fff;
 }
 
 .container .page-sub-header {
@@ -251,7 +269,7 @@ div .card-img-top {
 	color: white;
 	text-align: center;
 	background-color: red;
-	border: 1px solid red;
+	border: 1px solid #000;
 	border-radius: 5px;
 }
 
@@ -270,8 +288,8 @@ div .card-img-top {
 	margin: 10px;
 	color: white;
 	text-align: center;
-	background-color: teal;
-	border: 1px solid teal;
+	background-color: rgba(23, 162, 184, 1);
+	border: 1px solid rgba(23, 162, 184, 1);
 	border-radius: 5px;
 }
 /*-------------------------------------------------------------- Contact Form */
@@ -460,33 +478,19 @@ div .card-img-top {
 
 /*----------------------------------------------------------------Footer Section*/
 
-.footer {
+.footer2 {
     position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 100px;
-    line-height: 50px;
-    text-align: center;
-    background-color: #001d3d;
+    bottom: 100;
+    display: block;
+    height: fit-content;
 }
 
-
-.social-networks li {
-    display: inline;
+.fas {
+    color: #ffc300;
 }
-
-.social-networks i {
-    font-size: 130%;
-    margin: 1%;
-    padding: 1%;
-    color: #ffffff;
+.btn > .fab {
+    color: #000;
 }
-h6 {
-    text-align: center;
-    font-family: Lato;
-    color: #ffffff;
-}
-
-.page-footer {
-	display: inline-block;
+hr {
+    border: 1px solid white;
 }
