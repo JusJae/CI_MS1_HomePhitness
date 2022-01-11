@@ -275,7 +275,7 @@ small {
 	margin: 10px;
 	color: white;
 	text-align: center;
-	background-color: red;
+	background-color: rgb(215, 0, 0);
 	border: 1px solid #000;
 	border-radius: 5px;
 }
@@ -375,7 +375,7 @@ small {
 
 .submit-button:hover {
     background-color: #fafafa;
-    color: #0077b6;
+    color: rgba(23, 162, 184, 1);
 }
 
 
