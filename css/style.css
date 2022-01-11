@@ -249,13 +249,13 @@ div .card-img-top {
 
 .card-title {
     font-family: Exo;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.3);
     border-radius: 5px;
     padding: 1px;
 }
 
 .card-text {
-    background-color: rgba(0, 0, 0, 0.3);
+    letter-spacing: 1px;
     border-radius: 5px;
 }
 
@@ -395,14 +395,8 @@ small {
     }
 
     div .card-img-overlay > h1{
-        /*letter-spacing: 1px;
-        top: 2%;
-        right: 25%;*/
         font-size: 20px;
         padding: 2px;
-        
-        /*border-radius: 5px;
-        position: absolute;*/
     }
 
     .card-img-overlay h2 {
@@ -450,16 +444,6 @@ small {
         cursor: pointer;
     }
 
-.social-networks li {
-    display: inline;
-}
-
-.social-networks i {
-    font-size: 100%;
-    margin: 1%;
-    padding: 1%;
-    color: #777777;
-}
 }
 
 @media (min-width: 992px) {
@@ -487,19 +471,23 @@ small {
 
 /*----------------------------------------------------------------Footer Section*/
 
-.footer2 {
+
+footer {
     position: absolute;
     width: 100%;
     text-align: center;
     bottom: 100;
+    color: #fff;
     background-color: #001d3d;
 }
+
 
 .fas {
     color: #ffc300;
 }
 .btn > .fab {
     color: #000;
+    width: 35px;
 }
 hr {
     border: 1px solid white;
