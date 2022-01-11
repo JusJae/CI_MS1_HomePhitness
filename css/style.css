@@ -255,6 +255,8 @@ div .card-img-top {
 }
 
 .card-text {
+    background-color: rgba(0, 0, 0, .1);
+    text-align: center;
     letter-spacing: 1px;
     border-radius: 5px;
 }
@@ -480,7 +482,7 @@ small {
 
 footer {
     position: absolute;
-    width: 100%;
+    width: 100vw;
     text-align: center;
     bottom: 100;
     color: #fff;
