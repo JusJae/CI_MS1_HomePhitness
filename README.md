@@ -8,12 +8,15 @@
 
 ## Table of Content
 
-- [**HOME PHITNESS**](#home-phitness)
+- [HOME PHITNESS](#home-phitness)
   - [Table of Content](#table-of-content)
-  - [User Experience](#user-experience)
+  - [User Experience (UX)](#user-experience-ux)
   - [Project Goals](#project-goals)
-  - [User stories](#user-stories)
-    - [First Time Visitor Goals](#first-time-visitor-goals)
+    - [First Time User Goals](#first-time-user-goals)
+    - [User stories](#user-stories)
+      - [First-Time User](#first-time-user)
+      - [Returning User](#returning-user)
+      - [Frequent User](#frequent-user)
   - [Design](#design)
     - [Typography](#typography)
     - [Colour Scheme](#colour-scheme)
@@ -22,21 +25,27 @@
     - [Mobile view](#mobile-view)
   - [Features](#features)
     - [Logo and Navigation Bar](#logo-and-navigation-bar)
-    - [Dropdown toggle](#dropdown-toggle)
     - [Footer](#footer)
     - [About Us](#about-us)
     - [Workout categories](#workout-categories)
     - [Exercise cards](#exercise-cards)
-    - [Exercise Card Videos](#exercise-card-videos)
     - [Contact Form](#contact-form)
     - [Information](#information)
   - [Future Features](#future-features)
   - [Technologies Used](#technologies-used)
   - [Testing](#testing)
+    - [Features Testing](#features-testing)
+    - [User Feedback](#user-feedback)
   - [Validation](#validation)
-    - [W3C Jigsaw CSS](#w3c-jigsaw-css)
+      - [W3C Jigsaw CSS](#w3c-jigsaw-css)
+      - [W3C HTML Validator](#w3c-html-validator)
+      - [WAVE Web Accessibility Evaluation Tool](#wave-web-accessibility-evaluation-tool)
   - [Deployment](#deployment)
   - [Credits](#credits)
+    - [Images & Videos](#images--videos)
+      - [Images from Unsplash and Pexels](#images-from-unsplash-and-pexels)
+      - [Canva](#canva)
+    - [Exercises](#exercises)
   - [Acknowledgements](#acknowledgements)
 
 ## User Experience (UX)
@@ -46,9 +55,6 @@
 
 ## Project Goals
 
-### User stories
-
- A person who is interested in getting in shape at home, but does not know what type of workout they would like to do. They would come to this website to find a workout to do at home and be able to get in contact with a personal trainer to book in the next remote workout session.
 
 ### First Time User Goals
 
@@ -71,6 +77,10 @@ When a user complete the user form on the contact page they will be returned to 
 On the Contact Us Page, after a form response is submitted, the page refreshes and the user is brought to the top of the page where the navigation bar is.
 
 At the bottom of the Contact Us page, the user is told underneath the form, that alternatively they can contact the organisation on social media which highlights the links to them.
+
+### User stories
+
+ A person who is interested in getting in shape at home, but does not know what type of workout they would like to do. They would come to this website to find a workout to do at home and be able to get in contact with a personal trainer to book in the next remote workout session.
 
 #### First-Time User
 
@@ -96,7 +106,9 @@ As a returning user:
 #### Frequent User
 
 As a frequent user:
-13.
+13. I want to log on to find out what new exercises have been released for the month.
+14. I want to get in contact to recommend exercises/ workouts.
+15. 
 
 ## Design
 
@@ -256,25 +268,35 @@ links to the Homepage, About page, Exercises and Contact us page
     GitHub has been used to create a repository to host the project and receive updated commits from GitPod.
 
 - Balsamiq:
-    I used Balsamiq to create the wireframe for the website for the basic structure and layout.
+    I used Balsamiq to create the wireframes for the site to help me with the basic structure the layout and have a guide to design the project with.
+
 - Coolors:
     This colour palette selector tool was used to see what colour would work well on the site.
+
 - Canva:
   Used to design the logo and 404 error page image.
+
 - Pexels & UnSplash
     Pexels and UnSplash was used throughout the site as they are royalty-free stock images and videos. copyright free images for this project.
+
 - Google Fonts:
     The fonts where selected from and imported to style the text on the site.
+
 - Font Awesome:
     Font Awesome was used to apply icons in the Exercises page and Footer section.
+
 - Lighthouse:
     Chrome Dev Tools was used to test the site, assist with debugging issues and run reports from Lighthouse.
+
 - W3C HTML Validation Service:
     The W3C HTML Validation Service was used as a validation tool to check for issues within the project's HTML documents code.
+
 - W3C CSS Validation Service:
     The W3C HTML Validation Service was used as a validation tool to check for issues within the project's CSS document code.
-- Web AIM Accessibility Evaluation Tool:
+
+- WAVE Web AIM Accessibility Evaluation Tool:
     This tool was used to test errors in accessibility such as the color contrast, ARIA for this project.
+    
 - Am I Responsive:
     Am I Responsive was used to create the header image for the README file to show the site in its responsive format.
 
@@ -322,7 +344,7 @@ The website was tested through W3C validator for HTML and CSS, WebAIM, Lighthous
 <details>
 <summary>Web AIM </summary>
 
-#### Web AIM Accessibility
+#### WAVE Web Accessibility Evaluation Tool
 
 <img src="../docs/validation/webaim.png">
 </details>
