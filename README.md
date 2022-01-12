@@ -43,6 +43,7 @@
     - [W3C HTML Validator](#w3c-html-validator)
     - [WAVE Web Accessibility Evaluation Tool](#wave-web-accessibility-evaluation-tool)
     - [A11y Color contrast Accessibility Validator](#a11y-color-contrast-accessibility-validator)
+    - [Lighthouse Page Speed Insights](#lighthouse-page-speed-insights)
   - [Deployment](#deployment)
   - [Credits](#credits)
     - [Images & Videos from Unsplash and Pexels](#images--videos-from-unsplash-and-pexels)
@@ -327,6 +328,9 @@ links to the Homepage, About page, Exercises and Contact us page
 - A11Y Color Contrast Accessibility Validator:
     This online checker tool was used to check the contrast level opf the content of each page.
 
+- Chrome/Firefox Dev Tools:
+    Dev Tools were used to analyse the sites accessibility, performance, assist with debugging issues and running reports from Lighthouse/Page Speed Insights.
+
 - Image Compressor
     This online tool was used to compress the image file to optimize the sites loading time.
 
@@ -343,6 +347,17 @@ The 'Home Phitness' website was tested through on the following browsers:
 - Google Chrome
 - Safari
 - Opera
+
+The site was also tested using different size screens to check the responsiveness of the code. I looked aty the site on the following screen sizes:
+
+- Laptop
+- Laptop touch
+- iPad
+- iPhone 5
+- iPhone XS Max
+- iPad Project
+
+This allowed me to see if the code was responding to the media queries ut in and the different CSS styling.
 
 ## User Feedback
 
@@ -446,6 +461,18 @@ Exercises
 
 </details>
 
+<details>
+<summary>Lighthouse </summary>
+
+### Lighthouse Page Speed Insights
+
+Lighthouse
+![Lighthouse](./docs/validation/lighthouse-desktop.png)
+
+Lighthouse tool showed that there could be further improvements made on the performance of the mobile site.
+
+</details>
+
 <br>
 
 ## Deployment
@@ -501,6 +528,6 @@ Thanks to the following people for your help and support in completing this site
 
 - Mentor - Mo
 - Slack CI Community
-- Code Institute Staff
+- Stack Overflow Community
 
 _Home Phitness is a fabricated company for the purposes of this project._
