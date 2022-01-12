@@ -32,11 +32,12 @@
     - [Exercise cards](#exercise-cards)
     - [Contact Form](#contact-form)
     - [Information](#information)
+    - [404 Error Page](#404-error-page)
   - [Technologies Used](#technologies-used)
   - [Testing](#testing)
   - [User Feedback](#user-feedback)
     - [User Feedback Example](#user-feedback-example)
-    - [Features Testing](#features-testing)
+    - [Features User Testing](#features-user-testing)
   - [Future Features](#future-features)
   - [Validation Testing](#validation-testing)
     - [W3C Jigsaw CSS](#w3c-jigsaw-css)
@@ -46,8 +47,9 @@
     - [Lighthouse Page Speed Insights](#lighthouse-page-speed-insights)
   - [Deployment](#deployment)
   - [Credits](#credits)
-    - [Images & Videos from Unsplash and Pexels](#images--videos-from-unsplash-and-pexels)
     - [Exercise Information](#exercise-information)
+    - [Images & Videos from Unsplash and Pexels](#images--videos-from-unsplash-and-pexels)
+    - [Code](#code)
   - [Acknowledgements](#acknowledgements)
 
 ## User Experience (UX)
@@ -235,6 +237,7 @@ links to the Homepage, About page, Exercises and Contact us page
 ![About Us](docs/features/f-about.png)
 
 </details>
+<br>
 
 ### Workout categories
 
@@ -246,6 +249,7 @@ links to the Homepage, About page, Exercises and Contact us page
 ![Workout Categories](docs/features/f-workouts.png)
 
 </details>
+<br>
 
 ### Exercise cards
 
@@ -257,6 +261,7 @@ links to the Homepage, About page, Exercises and Contact us page
 ![Exercise Card](docs/features/f-exercise-card.png)
 
 </details>
+<br>
 
 ### Contact Form
 
@@ -268,6 +273,7 @@ links to the Homepage, About page, Exercises and Contact us page
 ![Contact Form](docs/features/f-contact-form.png)
 
 </details>
+<br>
 
 ### Information
 
@@ -278,6 +284,18 @@ links to the Homepage, About page, Exercises and Contact us page
 <summary>Contact Info Image</summary>
 
 ![Information](docs/features/f-contact-info.png)
+
+</details>
+<br>
+
+### 404 Error Page
+
+- Provides the user with .
+
+<details>
+<summary>Error 404 Image</summary>
+
+![Error 404](docs/features/f-error-404.png)
 
 </details>
 <br>
@@ -307,8 +325,8 @@ links to the Homepage, About page, Exercises and Contact us page
 - Canva:
   Used to design the logo and 404 error page image.
 
-- Pexels 
-    Pexels was used throughout the site as they are copyright and royalty-free stock images and videos. 
+- Pexels
+    Pexels was used throughout the site as they are copyright and royalty-free stock images and videos.
 
 - Google Fonts:
     The fonts where selected from and imported to style the text on the site.
@@ -372,19 +390,111 @@ My favourite part of the website was that you can find your own comfort of exerc
 I loved how  the “exercise” and  “build”  and “stretch” sections, demonstrated how to do the exercise  followed by pictures and small video clips of how to do it, also the fact it had minimal writing and just set out how many to do and for how long really encouraged me.
 Overall fantastic website and look forward to seeing more workouts to add to my routine. I will definitely recommend to anyone who wants to start a journey in fitness at home."
 
-### Features Testing
+### Features User Testing
 
 I have looked at the features that the site offers and how it works in anticipation of user wants and expectations.
 
 | Feature                         | User Story     | Expected Outcome                                        | Actual Outcome                                          |
 |-------------------------------- |------------    |-------------------------------------------------------- |-------------------------------------------------------- |
 | Navigation bar/Toggle dropdown  | 4, 13, 14      | To navigate through the sites pages easily              | Feature worked as expected for user                     |
+<details>
+<summary>User Testing Nav Bar</summary>
+
+![User Testing Nav Bar](./docs/user-testing/navbar.png)
+
+![User Testing Nav Bar Toggle Dropdown](./docs/user-testing/exercise-menu.png)
+
+</details>
+<br>
+
+| Feature                         | User Story     | Expected Outcome                                        | Actual Outcome                                          |
+|-------------------------------- |------------    |-------------------------------------------------------- |-------------------------------------------------------- |
 | Workout Category Cards          | 1, 2, 6, 7, 13 | Locating desired workout category                       | Feature worked as expected for user                     |
+<details>
+<summary>User Testing Workout Category Cards</summary>
+
+![Workout Category Cards](./docs/user-testing/workout-cards.png)
+
+</details>
+<br>
+
+| Feature                         | User Story     | Expected Outcome                                        | Actual Outcome                                          |
+|-------------------------------- |------------    |-------------------------------------------------------- |-------------------------------------------------------- |
 | Exercise Cards                  | 3, 6, 7        | To know what exercise, how to do it and how long for.   | Feature needed further detail on how to do it for user  |
+<details>
+<summary>User Testing Exercise Cards</summary>
+
+![Exercise Page](./docs/user-testing/exercises-page.png)
+
+- More instructions needed on exercise cards
+  
+![Exercise Cards Burn](./docs/user-testing/burn-cards.png)
+
+![Exercise Cards Build](./docs/user-testing/build-cards.png)
+
+![Exercise Cards Stretch](./docs/user-testing/stretch-cards.png)
+
+</details>
+<br>
+
+| Feature                         | User Story     | Expected Outcome                                        | Actual Outcome                                          |
+|-------------------------------- |------------    |-------------------------------------------------------- |-------------------------------------------------------- |
 | Contact Form                    | 5, 10          | To be able to get in contact with company               | Feature worked as expected for user                     |
+<details>
+<summary>User Testing Contact Form</summary>
+
+![Contact Form](./docs/user-testing/contact-form.png)
+
+![Contact Form 2](./docs/user-testing/contact-form2.png)
+
+</details>
+<br>
+
+| Feature                         | User Story     | Expected Outcome                                        | Actual Outcome                                          |
+|-------------------------------- |------------    |-------------------------------------------------------- |-------------------------------------------------------- |
 | Footer                          | 5, 6           | To scroll to the bottom of any page to find the footer  | Feature worked as expected for user                     |
+<details>
+<summary>User Testing Footer</summary>
+
+![Footer](./docs/user-testing/footer.png)
+
+</details>
+<br>
+
+| Feature                         | User Story     | Expected Outcome                                        | Actual Outcome                                          |
+|-------------------------------- |------------    |-------------------------------------------------------- |-------------------------------------------------------- |
 | About Us                        | 3, 9, 12       | To gain insight on the company                          | Feature worked as expected for user                     |
+<details>
+<summary>User Testing About Us</summary>
+
+![About Us](./docs/user-testing/about-us.png)
+
+</details>
+<br>
+
+| Feature                         | User Story     | Expected Outcome                                        | Actual Outcome                                          |
+|-------------------------------- |------------    |-------------------------------------------------------- |-------------------------------------------------------- |
 | Contact Information             | 6, 10          | Find details to be able to get in contact directly      | Feature worked as expected for user                     |
+<details>
+<summary>User Testing Contact Information</summary>
+
+![User Testing Contact Information](./docs/user-testing/contact-info.png)
+
+</details>
+<br>
+
+| Feature                         | User Story     | Expected Outcome                                        | Actual Outcome                                          |
+|-------------------------------- |------------    |-------------------------------------------------------- |-------------------------------------------------------- |
+| Error: 404 Page                  |  3             | If the user goes to a page that does not exist          | Feature worked as expected for user                     |
+<details>
+<summary> User Testing Error: 404 Page</summary>
+
+![User Testing Error: 404 Page](./docs/user-testing/wrong-page.png)
+
+![User Testing Error: 404 Page](./docs/user-testing/error-404.png)
+
+</details>
+<br>
 
 ## Future Features
 
@@ -510,17 +620,26 @@ You can create a 'fork' of the repository by following these steps:
 
 ---
 
-### Images & Videos from Unsplash and Pexels
-
-[Pexels](https://www.pexels.com/) 
-  - 'MART Production' from their 'Workout at Home' collection
-  - 'Thirdman' for his 'Lifestyle' collection.
-
-
 ### Exercise Information
 
-  - Exercise card information was designed calculated by experienced Personal Trainer (Me!)
+- Exercise card information was designed calculated by experienced Personal Trainer (Me!)
 
+### Images & Videos from Unsplash and Pexels
+
+[Pexels](https://www.pexels.com/)
+
+- 'MART Production' from their 'Workout at Home' collection
+- 'Thirdman' for his 'Lifestyle' collection.
+
+### Code
+
+- Components on the site courtesy of [Bootstrap 4.2](https://getbootstrap.com/docs/4.2/):
+- Navigation Bar Toggle Dropdown Menu
+- Card Deck used on the Exercises page
+
+- Components on the site courtesy of [MD Bootstrap 4](https://mdbootstrap.com/):
+- Footer layout and styling of the buttons
+  
 ## Acknowledgements
 
 ---
