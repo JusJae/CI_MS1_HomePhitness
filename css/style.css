@@ -309,7 +309,7 @@ small {
 }
 .form-section {
     clear: left;
-    background: url("/assets/images/contact-us.png");
+    background: url("../assets/images/contact-us.png");
     background-size: cover;
     background-position: center;
     height: auto;
@@ -484,7 +484,7 @@ footer {
     position: absolute;
     width: 100vw;
     text-align: center;
-    bottom: 100vw;
+    bottom: auto;
     color: #fff;
     background-color: rgba(0, 0, 0, .7)
 }
