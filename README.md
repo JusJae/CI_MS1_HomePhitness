@@ -11,15 +11,16 @@
 - [HOME PHITNESS](#home-phitness)
   - [Table of Content](#table-of-content)
   - [User Experience (UX)](#user-experience-ux)
-  - [Project Goals](#project-goals)
+  - [## Project Goals](#-project-goals)
     - [First Time User Goals](#first-time-user-goals)
-    - [User stories](#user-stories)
+  - [### User stories](#-user-stories)
       - [First-Time User](#first-time-user)
       - [Returning User](#returning-user)
       - [Frequent User](#frequent-user)
-  - [Design](#design)
+  - [## Design](#-design)
     - [Typography](#typography)
     - [Colour Scheme](#colour-scheme)
+      - [_Coolors Palette_](#coolors-palette)
   - [Wireframes](#wireframes)
     - [Web View](#web-view)
     - [Mobile view](#mobile-view)
@@ -36,7 +37,7 @@
   - [Testing](#testing)
     - [Features Testing](#features-testing)
     - [User Feedback](#user-feedback)
-  - [Validation](#validation)
+  - [Validation Testing](#validation-testing)
       - [W3C Jigsaw CSS](#w3c-jigsaw-css)
       - [W3C HTML Validator](#w3c-html-validator)
       - [WAVE Web Accessibility Evaluation Tool](#wave-web-accessibility-evaluation-tool)
@@ -54,7 +55,7 @@
 ---
 
 ## Project Goals
-
+---
 
 ### First Time User Goals
 
@@ -79,7 +80,7 @@ On the Contact Us Page, after a form response is submitted, the page refreshes a
 At the bottom of the Contact Us page, the user is told underneath the form, that alternatively they can contact the organisation on social media which highlights the links to them.
 
 ### User stories
-
+---
  A person who is interested in getting in shape at home, but does not know what type of workout they would like to do. They would come to this website to find a workout to do at home and be able to get in contact with a personal trainer to book in the next remote workout session.
 
 #### First-Time User
@@ -96,6 +97,7 @@ As a first time user:
 #### Returning User
 
 As a returning user:
+
 7. I want to see the exercises available to complete at home
 8. I want to know what exercises are new
 9. I want to know when the new exercises re being released
@@ -106,12 +108,13 @@ As a returning user:
 #### Frequent User
 
 As a frequent user:
+
 13. I want to log on to find out what new exercises have been released for the month.
 14. I want to get in contact to recommend exercises/ workouts.
 15. I want to get in contact with you directly with a query.
 
 ## Design
-
+---
 ### Typography
 
 Exo | Lato | Oswald
@@ -125,24 +128,15 @@ Oswald was used for the body of text.
 
 ### Colour Scheme
 
- Colours:
+#### _Coolors Palette_
 
-    CSS HEX
-    --black: #000000;
-    --white: #ffffff;
-    --rich-black-fogra: #000814;
-    --prussian-blue: #003566
-    --star-command-blue: #0077b6ff;
-    --mikado-yellow: #ffc300;
-    --oxford-blue":#001d3d;
-
-![Colour scheme](docs/features/color-palette.png)
+![Colour scheme](./docs/palette.png)
 
 I used a simple black and white base to the site with vibrant yellow  and blue accents to match the brand theme.
 These colours contrast very well for users who may struggle colour differentiation.
-The colours also allow for s dark mode filter to easily changed the colours the user.
+The colours also allow for dark mode filters to easily changed the colours the user.
 
-The exercise cards are colours based on their category, using red for burn, yellow for build snd blue for stretch.
+The exercise cards are colours based on their category, using red for 'Burn'exercises, yellow for navigation bar menu and buttons and the 'Build' exercises and blue for 'Stretch' exercises and active menu tab when dropdown selected.
 
 ## Wireframes
 
@@ -197,6 +191,8 @@ The exercise cards are colours based on their category, using red for burn, yell
 
 <img src="../docs/wireframes/wireframes-web_view.png">
 </details>
+
+
 
 ## Features
 
@@ -290,6 +286,9 @@ links to the Homepage, About page, Exercises and Contact us page
 - WAVE Web AIM Accessibility Evaluation Tool:
     This tool was used to test errors in accessibility such as the color contrast, ARIA for this project.
 
+- A11Y Color Contrast Accessibility Validator:
+    This online checker tool was used to check the contrast level opf the content of each page.
+
 - Image Compressor
     This online tool was used to compress the image file to optimize the sites loading time.
     
@@ -321,10 +320,10 @@ I have looked at the features that the site offers and how it works in anticipat
 
 ### User Feedback
 
-I asked my peers to review the site when it was completed to give me their honest feedback.
+I asked my peers to review the site when it was completed to give me their honest feedback, in order to make adjustments to the site based on real-time feedback.
 
 
-## Validation
+## Validation Testing
 
 The website was tested through W3C validator for HTML and CSS, WAVE Web AIM Accessibility Tool.
 I ran the site through the validation tools to check for errors whilst creating the project and to fix them within the code.
@@ -334,8 +333,7 @@ I ran the site through the validation tools to check for errors whilst creating 
 
 #### W3C Jigsaw CSS
 
-<img src="../docs/validation/w3cjigsaw.png">
-
+![Jigsaw CSS](./docs/validation/jigsaw-css.png)
 
 #### W3C HTML Validator
 
@@ -362,16 +360,17 @@ The website has been deployed through Github Pages using the steps below:
 5. Upon refresh banner states "Your site is published at <https://jusjae.github.io/CI_MS1_HomePhitness/>"
 6. Test the deployment works by clicking on link.
 
+![GitHub Deployment](./docs/validation/deployment-settings-bar.png)
 
 The following steps will guide you to clone the repository:
 
-1. Go to the GitHub repository you
+1. Go to the GitHub repository
 2. Locate the Code button above the list of files and click it
 3. Select if you prefer to clone using HTTPS, SSH, or Github CLI and click the copy button to copy the URL to your clipboard
-4. Open Git Bash
-5. Change the current working directory to the one where you want the cloned directory
-6. Type git clone and paste the URL from the clipboard ($ git clone <https://github.com/YOUR-USERNAME/YOUR-REPOSITORY>)
-7.Press Enter to create your local clone.
+4. Open the CLI
+5. Change the current working directory to where you wnt the cloned directory to be located
+6. Type `git clone` and paste the URL from the clipboard `$ git clone <https://github.com/jusjae/CI_MS1_Phitness>`.
+7.Press 'Enter' to create your locally cloned repository.
 
 You can for fork the repository by following these steps:
 
