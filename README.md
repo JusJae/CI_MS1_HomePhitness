@@ -2,27 +2,27 @@
 
 (Developer: Jae Phillips)
 
-![Responsive mockup image](docs/am-i-responsive.jpg)
+![Responsive mockup image](docs/features/amiresponsive.png)
 
-> [Live Page](https://jusjae.github.io/CI_MS1_Phitness)
+> [Live Page](https://jusjae.github.io/CI_MS1_HomePhitness)
 
 ## Table of Content
 
 - [HOME PHITNESS](#home-phitness)
   - [Table of Content](#table-of-content)
   - [User Experience (UX)](#user-experience-ux)
-  - [## Project Goals](#-project-goals)
+  - [Project Goals](#project-goals)
     - [First Time User Goals](#first-time-user-goals)
-  - [### User stories](#-user-stories)
+    - [User stories](#user-stories)
       - [First-Time User](#first-time-user)
       - [Returning User](#returning-user)
       - [Frequent User](#frequent-user)
-  - [## Design](#-design)
+  - [Design](#design)
     - [Typography](#typography)
     - [Colour Scheme](#colour-scheme)
-      - [_Coolors Palette_](#coolors-palette)
+      - [_Palette_](#palette)
   - [Wireframes](#wireframes)
-    - [Web View](#web-view)
+    - [Web view](#web-view)
     - [Mobile view](#mobile-view)
   - [Features](#features)
     - [Logo and Navigation Bar](#logo-and-navigation-bar)
@@ -32,21 +32,21 @@
     - [Exercise cards](#exercise-cards)
     - [Contact Form](#contact-form)
     - [Information](#information)
-  - [Future Features](#future-features)
   - [Technologies Used](#technologies-used)
   - [Testing](#testing)
+  - [User Feedback](#user-feedback)
+    - [User Feedback Example](#user-feedback-example)
     - [Features Testing](#features-testing)
-    - [User Feedback](#user-feedback)
+  - [Future Features](#future-features)
   - [Validation Testing](#validation-testing)
-      - [W3C Jigsaw CSS](#w3c-jigsaw-css)
-      - [W3C HTML Validator](#w3c-html-validator)
-      - [WAVE Web Accessibility Evaluation Tool](#wave-web-accessibility-evaluation-tool)
+    - [W3C Jigsaw CSS](#w3c-jigsaw-css)
+    - [W3C HTML Validator](#w3c-html-validator)
+    - [WAVE Web Accessibility Evaluation Tool](#wave-web-accessibility-evaluation-tool)
+    - [A11y Color contrast Accessibility Validator](#a11y-color-contrast-accessibility-validator)
   - [Deployment](#deployment)
   - [Credits](#credits)
-    - [Images & Videos](#images--videos)
-      - [Images from Unsplash and Pexels](#images-from-unsplash-and-pexels)
-      - [Canva](#canva)
-    - [Exercises](#exercises)
+    - [Images & Videos from Unsplash and Pexels](#images--videos-from-unsplash-and-pexels)
+    - [Exercise Information](#exercise-information)
   - [Acknowledgements](#acknowledgements)
 
 ## User Experience (UX)
@@ -55,6 +55,7 @@
 ---
 
 ## Project Goals
+
 ---
 
 ### First Time User Goals
@@ -80,6 +81,7 @@ On the Contact Us Page, after a form response is submitted, the page refreshes a
 At the bottom of the Contact Us page, the user is told underneath the form, that alternatively they can contact the organisation on social media which highlights the links to them.
 
 ### User stories
+
 ---
  A person who is interested in getting in shape at home, but does not know what type of workout they would like to do. They would come to this website to find a workout to do at home and be able to get in contact with a personal trainer to book in the next remote workout session.
 
@@ -114,7 +116,9 @@ As a frequent user:
 15. I want to get in contact with you directly with a query.
 
 ## Design
+
 ---
+
 ### Typography
 
 Exo | Lato | Oswald
@@ -125,10 +129,9 @@ Exo was used for heading and sub headings as it has a bold standout style that l
 'Lato' was used for buttons and call to action and menu for its ease of readability.
 Oswald was used for the body of text.
 
-
 ### Colour Scheme
 
-#### _Coolors Palette_
+#### _Palette_
 
 ![Colour scheme](./docs/palette.png)
 
@@ -140,59 +143,51 @@ The exercise cards are colours based on their category, using red for 'Burn'exer
 
 ## Wireframes
 
-### Web View
+Wireframes were designed at the start of this project to map out the site but the site has slightly changed since it its original conception to simplify the layout and add different elements and remove unnecessary elements for current features such as a music player.
+
+In addition to not having originally planned to have a custom 404 page but adding it in during the project.
+
+### Web view
 
 <details>
-<summary>View Web Home Page</summary>
+<summary>Web View Wireframes</summary>
 
-<img src="../docs/wireframes/wireframes-web_view.png">
+Home Page
+![Wireframe Home Web View](./docs/wireframes/wireframe-web_view.png)
+
+About Us Page
+![Wireframe About Web](./docs/wireframes/wireframe-about_us.png)
+
+Exercises Page
+![Wireframe Exercises Web](./docs/wireframes/wireframe-exercises.png)
+
+Contact Us Page
+![Wireframe Contact Web](./docs/wireframes/wireframe-contact_us.png)
+
 </details>
 
-<details>
-<summary>View Web About Us Page</summary>
-
-<img src="../docs/wireframes/wireframes-web_view.png">
-</details>
-
-<details>
-<summary>View Web Exercises Page</summary>
-
-<img src="../docs/wireframes/wireframes-web_view.png">
-</details>
-
-<details>
-<summary>View Web Contact Us Page</summary>
-
-<img src="../docs/wireframes/wireframes-web_view.png">
-</details>
+<br>
 
 ### Mobile view
 
 <details>
-<summary>View Mobile Home Page</summary>
+<summary>Mobile View Wireframes</summary>
 
-<img src="../docs/wireframes/wireframes-web_view.png">
+Mobile Home Page
+![Wireframe Home Mobile](./docs/wireframes/wireframe-mobile_view.png)
+
+Mobile About Us Page
+![Wireframe About Mobile](./docs/wireframes/wireframe-m-about_us.png)
+
+Mobile Exercises Page
+![Wireframe Exercises Mobile](./docs/wireframes/wireframe-m-exercises.png)
+
+Mobile Contact Us Page
+![Wireframe Contact Mobile](./docs/wireframes/wireframe-m-contact_us.png)
+
 </details>
 
-<details>
-<summary>View Mobile About Us Page</summary>
-
-<img src="../docs/wireframes/wireframes-web_view.png">
-</details>
-
-<details>
-<summary>View Mobile Exercises Page</summary>
-
-<img src="../docs/wireframes/wireframes-web_view.png">
-</details>
-
-<details>
-<summary>View Mobile Contact Us Page</summary>
-
-<img src="../docs/wireframes/wireframes-web_view.png">
-</details>
-
-
+<br>
 
 ## Features
 
@@ -207,51 +202,94 @@ The page consists of four pages and nine features
 links to the Homepage, About page, Exercises and Contact us page
 - The link for the page the user is currently on is highlighted and bold text on active page tab.
 
-![Logo and navbar]()
+<details>
+<summary>Navbar Toggle Dropdown Images</summary>
+
+![Navbar web](docs/features/f-menu-dropdown.png)
+
+![Navbar mobile](docs/features/f-menu-dropdown-m.png)
+
+</details>
+<br>
 
 ### Footer
 
-- Featured on all five pages and consists of Home Phitness slogan, contact onformation and social media link and copyright.
+- Featured on all five pages and consists of Home Phitness slogan, contact information and social media link and copyright.
 
-![Footer]()
+<details>
+<summary>Footer Image</summary>
+
+![Footer](docs/features/f-footer.png)
+
+</details>
+<br>
 
 ### About Us
 
-- Gives a description of the restaurant and its facilities with a image of the front of the building on the right side
+- Gives a description of the hone workout company and the trainer that provides the exercises.
+  
+<details>
+<summary>About Us Image</summary>
 
-![About Us]()
+![About Us](docs/features/f-about.png)
+
+</details>
 
 ### Workout categories
 
-- Gives an overview of
-  
-![Workout cards]()
+- Gives an overview of the different workout categories available on the site, which have ben broken down in to fat burning, building muscles and stretches.
+
+<details>
+<summary>Workout Categories Image</summary>
+
+![Workout Categories](docs/features/f-workouts.png)
+
+</details>
 
 ### Exercise cards
 
-![Exercise cards]()
+- Provides the information on what the exercise is and how long the user should be doing the exercise for, giving them a video hint or picture of exercise.
+
+<details>
+<summary>Exercise Card Image</summary>
+
+![Exercise Card](docs/features/f-exercise-card.png)
+
+</details>
 
 ### Contact Form
 
-- A way for user to get in contact
+- A way for user to get in contact with the company in order find out more information or get questions answered.
 
-![Contact Form]()
+<details>
+<summary>Contact Form Image</summary>
+
+![Contact Form](docs/features/f-contact-form.png)
+
+</details>
 
 ### Information
 
-- Provides the user with information about the company including phone number, email, and the name of the owner.
+- Provides the user with information about the company including phone number, email and social media links.
 
-![Information]()
+-
+<details>
+<summary>Contact Info Image</summary>
 
-## Future Features
+![Information](docs/features/f-contact-info.png)
 
-- Weekly updated home workouts
-- Pop-ups of exercise videos for all exercise cards
+</details>
+<br>
 
 ## Technologies Used
 
+---
+
 - Bootstrap v4.2.1:
     Bootstrap has been used for overall responsiveness of the website, and for the layout to include navigation, cards, and footer within the relevant sections of the website.
+
+- MD Bootstrap 4:
+    MD Bootstrap was used to get help in designing the footer and responsive content throughout the project.
 
 - Visual Studio Code/GitPod:
  I used GitPod/Visual Studio Code as the IDE application with Git for version control of this project.
@@ -268,8 +306,8 @@ links to the Homepage, About page, Exercises and Contact us page
 - Canva:
   Used to design the logo and 404 error page image.
 
-- Pexels & UnSplash
-    Pexels and UnSplash was used throughout the site as they are royalty-free stock images and videos. copyright free images for this project.
+- Pexels 
+    Pexels was used throughout the site as they are copyright and royalty-free stock images and videos. 
 
 - Google Fonts:
     The fonts where selected from and imported to style the text on the site.
@@ -291,12 +329,14 @@ links to the Homepage, About page, Exercises and Contact us page
 
 - Image Compressor
     This online tool was used to compress the image file to optimize the sites loading time.
-    
+
 - Am I Responsive:
     Am I Responsive was used to create the header image for the README file to show the site in its responsive format.
 
 ## Testing
 
+---
+---
 The 'Home Phitness' website was tested through on the following browsers:
 
 - Firefox
@@ -304,52 +344,113 @@ The 'Home Phitness' website was tested through on the following browsers:
 - Safari
 - Opera
 
+## User Feedback
+
+---
+I asked my peers to review the site when it was completed to give me their honest feedback, in order to make adjustments to the site based on real-time feedback.
+
+### User Feedback Example
+
+>"Home Phitness is a really straight forward and clear to use.
+I kind of struggle using websites as i have dyslexia sometimes find it quite difficult to read. Home Phitness  did it for me i was really intrigued at how clear everything was. I found that the about us page was very clear and straight to the point giving me the options to select what i’m interested in and sending it through.
+My favourite part of the website was that you can find your own comfort of exercising at home this highlighted everything for me and i was more drawn in as finding the time to go gym is really long after a long day at work and having to travel.
+I loved how  the “exercise” and  “build”  and “stretch” sections, demonstrated how to do the exercise  followed by pictures and small video clips of how to do it, also the fact it had minimal writing and just set out how many to do and for how long really encouraged me.
+Overall fantastic website and look forward to seeing more workouts to add to my routine. I will definitely recommend to anyone who wants to start a journey in fitness at home."
+
 ### Features Testing
 
 I have looked at the features that the site offers and how it works in anticipation of user wants and expectations.
 
-| Feature                         | User Story  | Expected Outcome                                        | Actual Outcome                       |
-|-------------------------------- |------------ |-------------------------------------------------------- |------------------------------------- |
-| Navigation bar/Toggle dropdown  | 1           | To navigate through the sites pages easily              | Feature worked as expected for user  |
-| Workout Category Cards          | 2           | Locating desired workout category                       | Feature worked as expected for user  |
-| Exercise Cards                  | 3           |                                                         | Feature worked as expected for user  |
-| Contact Form                    | 4           |                                                         | Feature worked as expected for user  |
-| Footer                          | 5           | To scroll to the bottom of any page to find the footer  | Feature worked as expected for user  |
-| About Us                        | 6           |                                                         |                                      |
-| Contact Information             | 7           |                                                         |                                      |
+| Feature                         | User Story     | Expected Outcome                                        | Actual Outcome                                          |
+|-------------------------------- |------------    |-------------------------------------------------------- |-------------------------------------------------------- |
+| Navigation bar/Toggle dropdown  | 4, 13, 14      | To navigate through the sites pages easily              | Feature worked as expected for user                     |
+| Workout Category Cards          | 1, 2, 6, 7, 13 | Locating desired workout category                       | Feature worked as expected for user                     |
+| Exercise Cards                  | 3, 6, 7        | To know what exercise, how to do it and how long for.   | Feature needed further detail on how to do it for user  |
+| Contact Form                    | 5, 10          | To be able to get in contact with company               | Feature worked as expected for user                     |
+| Footer                          | 5, 6           | To scroll to the bottom of any page to find the footer  | Feature worked as expected for user                     |
+| About Us                        | 3, 9, 12       | To gain insight on the company                          | Feature worked as expected for user                     |
+| Contact Information             | 6, 10          | Find details to be able to get in contact directly      | Feature worked as expected for user                     |
 
-### User Feedback
+## Future Features
 
-I asked my peers to review the site when it was completed to give me their honest feedback, in order to make adjustments to the site based on real-time feedback.
+---
 
+- Exercise cards have instructions on exercise and all cards to have videos where possible - User Story: 3, 6, 7
+- Sign up form feature to join a community newsletter to find out when new exercises are released - User Story: 8, 9, 13
 
 ## Validation Testing
 
+---
 The website was tested through W3C validator for HTML and CSS, WAVE Web AIM Accessibility Tool.
 I ran the site through the validation tools to check for errors whilst creating the project and to fix them within the code.
+The site was found ot have no errors in either HTML or CSS when using the validation tools as well as no contrast issues as shown when using the checker.
 
 <details>
 <summary>W3C Validation</summary>
 
-#### W3C Jigsaw CSS
+### W3C Jigsaw CSS
 
 ![Jigsaw CSS](./docs/validation/jigsaw-css.png)
 
-#### W3C HTML Validator
+### W3C HTML Validator
 
-<img src="../docs/validation/w3chtml.png">
+Home
+![W3C HTML Homepage](./docs/validation/w3c-html-home.png)
+
+About Us
+![W3C HTML About](./docs/validation/w3c-html-about.png)
+
+Exercises
+![W3C HTML Exercises](./docs/validation/w3c-html-exercises.png)
+
+Contact Us
+![W3C HTML Contact](./docs/validation/w3c-html-contact.png)
+
+404
+![W3C HTML 404](./docs/validation/w3c-html-404.png)
 
 </details>
 
 <details>
-<summary>Web AIM </summary>
+<summary>WAVE Web AIM </summary>
 
-#### WAVE Web Accessibility Evaluation Tool
+### WAVE Web Accessibility Evaluation Tool
 
-<img src="../docs/validation/webaim.png">
+Home
+![WebAim Homepage](./docs/validation/webaim-home.png)
+
+About Us
+![WebAim About](./docs/validation/webaim-about.png)
+
+Exercises
+![WebAim Exercises](./docs/validation/webaim-exercises.png)
+
+Contact Us
+![WebAim Contact](./docs/validation/webaim-contact.png)
+
+404
+![WebAim 404](./docs/validation/webaim-404.png)
+
 </details>
 
+<details>
+<summary>Color Contrast </summary>
+
+### A11y Color contrast Accessibility Validator
+
+Home
+![Color Contrast Homepage](./docs/validation/color-contrast.png)
+
+Exercises
+![Color Contrast Exercises](./docs/validation/color-contrast-exercises.png)
+
+</details>
+
+<br>
+
 ## Deployment
+
+---
 
 The website has been deployed through Github Pages using the steps below:
 
@@ -372,45 +473,29 @@ The following steps will guide you to clone the repository:
 6. Type `git clone` and paste the URL from the clipboard `$ git clone <https://github.com/jusjae/CI_MS1_Phitness>`.
 7.Press 'Enter' to create your locally cloned repository.
 
-You can for fork the repository by following these steps:
+You can create a 'fork' of the repository by following these steps:
 
 1. Go to the GitHub repository
 2. Click on Fork button in upper right hand corner
+3. This will create a copy of that repository within your Github
 
 ## Credits
 
-### Images & Videos
+---
 
-#### Images from Unsplash and Pexels
+### Images & Videos from Unsplash and Pexels
 
-- **Home page**
-  - Hero Image
-  - Home Exercise Cards
-- **About us page**
-- **Exercise page**
-  - Burn 1
-  - Burn 2
-  - Burn 3
-  - Burn 4
-  - Build 1
-  - Build 2
-  - Build 3
-  - Stretch 1
-  - Stretch 2
-  - Stretch 3
-  - Stretch 4
-- **Contact us page**
+[Pexels](https://www.pexels.com/collections/workout-at-home-abllmmi/) MART Production for their 'Workout at Home' collection
 
-#### Canva
+As well as ... from Unsplash.
 
-- "Home Phitness" Logo/ Favicon
+### Exercise Information
 
-### Exercises
-
-Knowledge of the exercises and instructions are credited by myself.
+Exercise card information was designed calculated by experienced Personal Trainer (Me!)
 
 ## Acknowledgements
 
+---
 Thanks to the following people for your help and support in completing this site for the Milestone Project 1 in completion of the Web Application Developmental Diploma delivered by the Code Institute.
 
 - Mentor - Mo
