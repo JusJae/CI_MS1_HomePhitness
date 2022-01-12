@@ -108,7 +108,7 @@ As a returning user:
 As a frequent user:
 13. I want to log on to find out what new exercises have been released for the month.
 14. I want to get in contact to recommend exercises/ workouts.
-15. 
+15. I want to get in contact with you directly with a query.
 
 ## Design
 
@@ -122,7 +122,6 @@ Exo was used for heading and sub headings as it has a bold standout style that l
 'Lato' was used for buttons and call to action and menu for its ease of readability.
 Oswald was used for the body of text.
 
-These fonts default to serif.
 
 ### Colour Scheme
 
@@ -208,18 +207,15 @@ The page consists of four pages and nine features
 
 ### Logo and Navigation Bar
 
-- Featured on all five pages
-- The navbar is fully responsive and changes to a toggler (hamburger menu) on smaller screens and includes
+- The navbar featured on all pages is fully responsive and changes to a toggler (hamburger menu) on smaller screens and includes
 links to the Homepage, About page, Exercises and Contact us page
-- It allows users to easily navigate the page
-- The link for the page the user is currently on is highlighted.
+- The link for the page the user is currently on is highlighted and bold text on active page tab.
 
 ![Logo and navbar]()
 
 ### Footer
 
-- Featured on all five pages
-- Consists of three separate sections: contact information, opening times, and social media links
+- Featured on all five pages and consists of Home Phitness slogan, contact onformation and social media link and copyright.
 
 ![Footer]()
 
@@ -265,13 +261,13 @@ links to the Homepage, About page, Exercises and Contact us page
  I used GitPod/Visual Studio Code as the IDE application with Git for version control of this project.
 
 - GitHub:
-    GitHub has been used to create a repository to host the project and receive updated commits from GitPod.
+    GitHub has been used to create a repository to host the project and receive updated commits from Visual Studio Code.
 
 - Balsamiq:
     I used Balsamiq to create the wireframes for the site to help me with the basic structure the layout and have a guide to design the project with.
 
 - Coolors:
-    This colour palette selector tool was used to see what colour would work well on the site.
+    This online colour palette selector tool was used to see what colour would work well on the site.
 
 - Canva:
   Used to design the logo and 404 error page image.
@@ -284,9 +280,6 @@ links to the Homepage, About page, Exercises and Contact us page
 
 - Font Awesome:
     Font Awesome was used to apply icons in the Exercises page and Footer section.
-
-- Lighthouse:
-    Chrome Dev Tools was used to test the site, assist with debugging issues and run reports from Lighthouse.
 
 - W3C HTML Validation Service:
     The W3C HTML Validation Service was used as a validation tool to check for issues within the project's HTML documents code.
@@ -305,7 +298,7 @@ links to the Homepage, About page, Exercises and Contact us page
 
 ## Testing
 
-The 'Home Phitness' website was tested through the following:
+The 'Home Phitness' website was tested through on the following browsers:
 
 - Firefox
 - Google Chrome
@@ -313,6 +306,8 @@ The 'Home Phitness' website was tested through the following:
 - Opera
 
 ### Features Testing
+
+I have looked at the features that the site offers and how it works in anticipation of user wants and expectations.
 
 | Feature                         | User Story  | Expected Outcome                                        | Actual Outcome                       |
 |-------------------------------- |------------ |-------------------------------------------------------- |------------------------------------- |
@@ -326,9 +321,13 @@ The 'Home Phitness' website was tested through the following:
 
 ### User Feedback
 
+I asked my peers to review the site when it was completed to give me their honest feedback.
+
+
 ## Validation
 
-The website was tested through W3C validator for HTML and CSS, WebAIM, Lighthouse
+The website was tested through W3C validator for HTML and CSS, WAVE Web AIM Accessibility Tool.
+I ran the site through the validation tools to check for errors whilst creating the project and to fix them within the code.
 
 <details>
 <summary>W3C Validation</summary>
@@ -336,7 +335,7 @@ The website was tested through W3C validator for HTML and CSS, WebAIM, Lighthous
 #### W3C Jigsaw CSS
 
 <img src="../docs/validation/w3cjigsaw.png">
-[Jigsaw Validator](http://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjusjae.github.io%2FCI_MS1_Phitness&profile=css3svg&usermedium=all&warning=1&vextwarning=)
+
 
 #### W3C HTML Validator
 
@@ -366,7 +365,7 @@ The website has been deployed through Github Pages using the steps below:
 
 The following steps will guide you to clone the repository:
 
-1. Go to the GitHub repository
+1. Go to the GitHub repository you
 2. Locate the Code button above the list of files and click it
 3. Select if you prefer to clone using HTTPS, SSH, or Github CLI and click the copy button to copy the URL to your clipboard
 4. Open Git Bash
