@@ -485,13 +485,14 @@ You can create a 'fork' of the repository by following these steps:
 
 ### Images & Videos from Unsplash and Pexels
 
-[Pexels](https://www.pexels.com/collections/workout-at-home-abllmmi/) MART Production for their 'Workout at Home' collection
+[Pexels](https://www.pexels.com/) 
+  - 'MART Production' from their 'Workout at Home' collection
+  - 'Thirdman' for his 'Lifestyle' collection.
 
-As well as ... from Unsplash.
 
 ### Exercise Information
 
-Exercise card information was designed calculated by experienced Personal Trainer (Me!)
+  - Exercise card information was designed calculated by experienced Personal Trainer (Me!)
 
 ## Acknowledgements
 
