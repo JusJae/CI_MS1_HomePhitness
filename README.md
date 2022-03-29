@@ -6,54 +6,6 @@
 
 > [Live Page](https://jusjae.github.io/CI_MS1_HomePhitness)
 
-<!— TOC start —>
-## Table of Content
-- [HOME PHITNESS](#home-phitness)
-  * [Table of Content](#table-of-content)
-  * [User Experience (UX)](#user-experience—ux-)
-  * [Project Goals](#project-goals)
-    + [First Time User Goals](#first-time-user-goals)
-    + [User stories](#user-stories)
-      - [First-Time User](#first-time-user)
-      - [Returning User](#returning-user)
-      - [Frequent User](#frequent-user)
-  * [Design](#design)
-    + [Typography](#typography)
-    + [Colour Scheme](#colour-scheme)
-      - [Palette](#palette)
-  * [Wireframes](#wireframes)
-    + [Web view](#web-view)
-    + [Mobile view](#mobile-view)
-  * [Features](#features)
-    + [Logo and Navigation Bar](#logo-and-navigation-bar)
-    + [Footer](#footer)
-    + [About Us](#about-us)
-    + [Workout categories](#workout-categories)
-    + [Exercise cards](#exercise-cards)
-    + [Contact Form](#contact-form)
-    + [Information](#information)
-    + [404 Error Page](#404-error-page)
-  * [Technologies Used](#technologies-used)
-  * [Testing](#testing)
-  * [User Feedback](#user-feedback)
-    + [User Feedback Example](#user-feedback-example)
-    + [Features User Testing](#features-user-testing)
-  * [Future Features](#future-features)
-  * [Validation Testing](#validation-testing)
-    + [W3C Jigsaw CSS](#w3c-jigsaw-css)
-    + [W3C HTML Validator](#w3c-html-validator)
-    + [WAVE Web Accessibility Evaluation Tool](#wave-web-accessibility-evaluation-tool)
-    + [A11y Color contrast Accessibility Validator](#a11y-color-contrast-accessibility-validator)
-    + [Lighthouse Page Speed Insights](#lighthouse-page-speed-insights)
-  * [Bugs](#bugs)
-  * [Deployment](#deployment)
-  * [Credits](#credits)
-    + [Exercise Information](#exercise-information)
-    + [Images & Videos from Unsplash and Pexels](#images—videos-from-unsplash-and-pexels)
-    + [Code](#code)
-  * [Acknowledgements](#acknowledgements)
-<!— TOC end —>
-
 ## Table of Content
 
 - [HOME PHITNESS](#home-phitness)
@@ -68,7 +20,7 @@
   - [Design](#design)
     - [Typography](#typography)
     - [Colour Scheme](#colour-scheme)
-      - [_Palette_](#palette)
+      - [Palette](#palette)
   - [Wireframes](#wireframes)
     - [Web view](#web-view)
     - [Mobile view](#mobile-view)
@@ -93,6 +45,7 @@
     - [WAVE Web Accessibility Evaluation Tool](#wave-web-accessibility-evaluation-tool)
     - [A11y Color contrast Accessibility Validator](#a11y-color-contrast-accessibility-validator)
     - [Lighthouse Page Speed Insights](#lighthouse-page-speed-insights)
+  - [Bugs](#bugs)
   - [Deployment](#deployment)
   - [Credits](#credits)
     - [Exercise Information](#exercise-information)
@@ -182,7 +135,7 @@ Oswald was used for the body of text.
 
 ### Colour Scheme
 
-#### _Palette_
+#### Palette
 
 ![Colour scheme](./docs/palette.png)
 
