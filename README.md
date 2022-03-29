@@ -578,13 +578,19 @@ Exercises
 ### Lighthouse Page Speed Insights
 
 Lighthouse
-![Lighthouse](./docs/validation/lighthouse-desktop.png)
+![Lighthouse - Desktop](./docs/validation/lighthouse-desktop.png)
+![Lighthouse - Mobile](./docs/validation/lighthouse-mobile.png)
 
 Lighthouse tool showed that there could be further improvements made on the performance of the mobile site.
 
 </details>
 
 <br>
+
+## Bugs 
+
+Whilst developing this site I came across a few bugs/issues with the code written. I have listed the bugs and the fixes.
+
 
 ## Deployment
 
@@ -635,18 +641,18 @@ You can create a 'fork' of the repository by following these steps:
 ### Code
 
 - Components on the site courtesy of [Bootstrap 4.2](https://getbootstrap.com/docs/4.2/):
-- Navigation Bar Toggle Dropdown Menu
-- Card Deck used on the Exercises page
+  - Navigation Bar Toggle Dropdown Menu
+  - Card Deck used on the Exercises page
 
 - Components on the site courtesy of [MD Bootstrap 4](https://mdbootstrap.com/):
-- Footer layout and styling of the buttons
+  - Footer layout and styling of the buttons
   
 ## Acknowledgements
 
 ---
 Thanks to the following people for your help and support in completing this site for the Milestone Project 1 in completion of the Web Application Developmental Diploma delivered by the Code Institute.
 
-- Mentor - Mo
+- Mentor - Mo Shami
 - Slack CI Community
 - Stack Overflow Community
 
