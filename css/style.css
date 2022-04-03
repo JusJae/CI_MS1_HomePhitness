@@ -244,6 +244,7 @@ div .card-img-overlay>h1 {
 
 div .card-img-top {
     width: 100%;
+    height: auto;
     margin-bottom: 2rem;
 }
 
@@ -263,6 +264,103 @@ div .card-img-top {
 
 small {
     color:#fff;
+}
+
+
+.card-img-top {
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+    margin-bottom: 2rem;
+}
+
+#pushups video {
+    padding-bottom: 3rem;
+}
+
+.box {
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, .1);
+    padding: 35px;
+
+    border-radius: 10px;
+    background-clip: padding-box;
+    text-align: center;
+}
+
+.button {
+    font-size: 1em;
+    padding: 10px;
+    color: #fff;
+    border: 2px solid rgba(255, 195, 0, 1);
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.2s ease-out;
+}
+
+.button:hover {
+    background: rgba(255, 195, 0, 0.5);
+    color: black;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 999;
+}
+
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 40%;
+    position: relative;
+    transition: all 5s ease-in-out;
+    z-index: 1000;
+}
+
+.popup h2 {
+    margin-top: 0;
+    color: #333;
+    font-family: Tahoma, Arial, sans-serif;
+}
+
+.popup li {
+    color: black;
+}
+
+.popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+.popup .close:hover {
+    color: red;
+}
+
+.popup .content {
+    max-height: 30%;
+    overflow: auto;
 }
 
 .container .page-sub-header {
@@ -420,6 +518,15 @@ small {
         border: solid 1px #000;
         margin: 15px;
     }
+
+    .box {
+        width: 70%;
+    }
+
+    .popup {
+        width: 70%;
+    }
+
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
