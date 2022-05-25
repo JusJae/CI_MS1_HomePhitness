@@ -28,23 +28,25 @@
     - [Logo and Navigation Bar](#logo-and-navigation-bar)
     - [Footer](#footer)
     - [About Us](#about-us)
-    - [Workout categories](#workout-categories)
+    - [Workout Category Cards and CTA](#workout-category-cards-and-cta)
     - [Exercise cards](#exercise-cards)
     - [Contact Form](#contact-form)
     - [Information](#information)
     - [404 Error Page](#404-error-page)
+  - [Future Features](#future-features)
   - [Technologies Used](#technologies-used)
   - [Testing](#testing)
   - [User Feedback](#user-feedback)
     - [User Feedback Example](#user-feedback-example)
-    - [Features User Testing](#features-user-testing)
-  - [Future Features](#future-features)
+    - [User Features Testing](#user-features-testing)
+    - [Manual Testing](#manual-testing)
   - [Validation Testing](#validation-testing)
     - [W3C Jigsaw CSS](#w3c-jigsaw-css)
     - [W3C HTML Validator](#w3c-html-validator)
     - [WAVE Web Accessibility Evaluation Tool](#wave-web-accessibility-evaluation-tool)
     - [A11y Color contrast Accessibility Validator](#a11y-color-contrast-accessibility-validator)
     - [Lighthouse Page Speed Insights](#lighthouse-page-speed-insights)
+  - [Bugs](#bugs)
   - [Deployment](#deployment)
   - [Credits](#credits)
     - [Exercise Information](#exercise-information)
@@ -194,8 +196,8 @@ Mobile Contact Us Page
 
 ## Features
 
----------
----------
+---
+---
 
 The page consists of four pages and nine features
 
@@ -239,14 +241,14 @@ links to the Homepage, About page, Exercises and Contact us page
 </details>
 <br>
 
-### Workout categories
+### Workout Category Cards and CTA
 
 - Gives an overview of the different workout categories available on the site, which have ben broken down in to fat burning, building muscles and stretches.
 
 <details>
 <summary>Workout Categories Image</summary>
 
-![Workout Categories](docs/features/f-workouts.png)
+![Workout Category Cards & CTA](docs/features/f-workout-category-cards-&-cta-image.png)
 
 </details>
 <br>
@@ -290,7 +292,7 @@ links to the Homepage, About page, Exercises and Contact us page
 
 ### 404 Error Page
 
-- Provides the user with .
+- Provides the user with page to let them know that they have reached a page that does nto exist and to return tot he home page.
 
 <details>
 <summary>Error 404 Image</summary>
@@ -299,6 +301,14 @@ links to the Homepage, About page, Exercises and Contact us page
 
 </details>
 <br>
+
+## Future Features
+
+---
+
+- Exercise cards have instructions on exercise and all cards to have videos where possible - User Story: 3, 6, 7
+- Sign up form feature to join a community newsletter to find out when new exercises are released - User Story: 8, 9, 13
+
 
 ## Technologies Used
 
@@ -359,6 +369,7 @@ links to the Homepage, About page, Exercises and Contact us page
 
 ---
 ---
+
 The 'Home Phitness' website was tested through on the following browsers:
 
 - Firefox
@@ -368,12 +379,12 @@ The 'Home Phitness' website was tested through on the following browsers:
 
 The site was also tested using different size screens to check the responsiveness of the code. I looked aty the site on the following screen sizes:
 
-- Laptop
-- Laptop touch
-- iPad
-- iPhone 5
-- iPhone XS Max
-- iPad Project
+- Laptop 1920 x 1080
+- Desktop 2560 x 1080
+- Tablet 810 x 1012
+- Larger tablet 1024 x 1294
+- Large Smartphone 428 x 926
+- Small Smartphone 320 x 449
 
 This allowed me to see if the code was responding to the media queries ut in and the different CSS styling.
 
@@ -390,7 +401,7 @@ My favourite part of the website was that you can find your own comfort of exerc
 I loved how  the “exercise” and  “build”  and “stretch” sections, demonstrated how to do the exercise  followed by pictures and small video clips of how to do it, also the fact it had minimal writing and just set out how many to do and for how long really encouraged me.
 Overall fantastic website and look forward to seeing more workouts to add to my routine. I will definitely recommend to anyone who wants to start a journey in fitness at home."
 
-### Features User Testing
+### User Features Testing
 
 I have looked at the features that the site offers and how it works in anticipation of user wants and expectations.
 
@@ -409,11 +420,11 @@ I have looked at the features that the site offers and how it works in anticipat
 
 | Feature                         | User Story     | Expected Outcome                                        | Actual Outcome                                          |
 |-------------------------------- |------------    |-------------------------------------------------------- |-------------------------------------------------------- |
-| Workout Category Cards          | 1, 2, 6, 7, 13 | Locating desired workout category                       | Feature worked as expected for user                     |
+| Workout Category Cards & CTA    | 1, 2, 6, 7, 13 | Locating desired workout category                       | Feature worked as expected for user                     |
 <details>
 <summary>User Testing Workout Category Cards</summary>
 
-![Workout Category Cards](./docs/user-testing/workout-cards.png)
+![Workout Category Cards & CTA](./docs/user-testing/workout-cards.png)
 
 </details>
 <br>
@@ -496,12 +507,28 @@ I have looked at the features that the site offers and how it works in anticipat
 </details>
 <br>
 
-## Future Features
+### Manual Testing
 
----
+| Test                                     | Steps                                                                                                                                                                                                                                                          | Expected Outcome                                                                                                                                                                                                                                           | Result | Features Exercised                                                           |
+| ---------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ | ---------------------------------------------------------------------------- |
+| Navigation - Navbar                      | Go to Home page, click on each of the navbar links Home/About Us/Exercises/Contact, repeat this test for all pages.                                                                                                                                            | Link works correctly and user is brought to the correct page each time.                                                                                                                                                                                    | PASS   | Navigation bar/Toggle dropdown                                               |
+| Navigation - Dropdown                    | On any page click on Exercises from the navbar, to toggle the dropdown list of workout categories.                                                                                                                                                             | Dropdown toggle link works and showds the different categories of exercises.                                                                                                                                                                               | PASS   | Navigation bar/Toggle dropdown                                               |
+| UX - CTA Button                          | Go to Home page, scroll down past CTA button, 3 workout category cards with buttons linked to sections on Exercises page.                                                                                                                                      | Link works correctly and user is brought to the correct page each time.                                                                                                                                                                                    | PASS   | Workout Category Cards                                                       |
+| UX - Workout Category Cards              | Go to Home page, CTA button under hero image. Once clicked takes user to Exercises page.                                                                                                                                                                       | User is taken to the top of the Exercises page, where the instructions are.                                                                                                                                                                                | PASS   | Workout Category Cards                                                       |
+| UX - Footer                              | On any page user scrolls to the bottom, to find the footer.                                                                                                                                                                                                    | Footer should look the same on all pages. Contact information and Social Media links should be visible and readable.                                                                                                                                       | PASS   | Footer, Contact Information                                                  |
+| UX - Footer - Contact/Socials            | On any page user scrolls to the bottom, to find the footer. Users can click on each of the social media links in the footer found on all pages.                                                                                                                | Social media links should be clickable and open in a separate tab.                                                                                                                                                                                         | PASS   | Footer, Contact Information                                                  |
+| UX - About Us                            | From the Home page, click on the navbar link, About Us to find the information about the sites services.                                                                                                                                                       | All text is visible and appropriately positioned, text sizing and font are legible.                                                                                                                                                                        | PASS   | About Us                                                                     |
+| UX - Exercise Cards                      | From the Home page, click on the navbar link, Exercises or one of the chosen dropdown selections, or any of the Workout Category Cards & CTA buttons. On the Exercises page, users will find instructions on exercises within each workout category.           | Videos & Images working and showing, alternative text available. All text is visible and appropriately positioned, text sizing and font are legible.                                                                                                       | PASS   | Navigation bar/Toggle dropdown, Workout Category Cards & CTA, Exercise Cards |
+| Interaction - Burn Exercise Cards Videos | On exercises page, checking the images loaded, along with readability and positioning of the exercise information.                                                                                                                                             | Videos play when user accesses the exercisespage and can control the videos upon right click.                                                                                                                                                              | PASS   | Exercise Cards                                                               |
+| Contact Form - name input check          | On the Contact Us page, attempt to Submit message without entering name                                                                                                                                                                                        | User is prompted to enter a value in the name input field. Form is not submitted.                                                                                                                                                                          | PASS   | Contact Form                                                                 |
+| Form - email input check                 | On the Contact Us page, attempt to Submit message after entering a name but without entering email address                                                                                                                                                     | User is prompted to enter a value in the email input field. Form is not submitted.                                                                                                                                                                         | PASS   | Contact Form                                                                 |
+| Form - email input check                 | On the Contact Us page, user attempts to Submit message after entering a name and an invalid email address (i.e. email address that does not contain @)                                                                                                        | User is prompted to enter a valid value in the email input field. Form is not submitted.                                                                                                                                                                   | PASS   | Contact Form                                                                 |
+| Form - radio selection check             | On the Contact Us page, attempt to Submit form without selecting workout category but with valid name and an valid email address                                                                                                                               | User is prompted to selcted an option. Form is not submitted.                                                                                                                                                                                              | PASS   | Contact Form                                                                 |
+| Form - submission                        | On the Contact page, complete the Contact Us form with valid inputs and click on Send Message                                                                                                                                                                  | Form is successfully submitted. Code Institute formdump.codeinstitute.net page appears showing values entered on the form.                                                                                                                                 | PASS   | Contact Form                                                                 |
+| 404 Page                                 | User types in the URL address to thje site incorrectly.                                                                                                                                                                                                        | User is taken to the Error 404 page and link is clickable to take back to home page.                                                                                                                                                                       | PASS   | Error: 404 Page                                                              |
+| UX - Responsiveness                      | Repeat all above tests for desktop, tablet and smartphone screens sizes.<br>a. Laptop 1920 x 1080<br>b. Destop Ultrawide 2560 x 1080<br>c. Tablet 810 x 1012<br>d. Larger tablet 1024 x 1294<br>e. Large Smartphone 428 x 926<br>f. Small Smartphone 320 x 449 | Verify expected outcomes for each test match original expected outcome.<br>Screens should re-size so that text remains visible, positioning of screen items (text, images, buttons, input fields etc.) all remain visible and do not overlap unexpectedly. | PASS   | All                                                                          |
+| UX - Browser compatibility               | Repeat all the above tests for the following browsers:<br>\- Firefox<br>\- Google Chrome<br>\- Safari<br>\- Opera                                                                                                                                              | Verify expected outcomes match that of original expected outcomes. Everything is visible and has been re-sized where needed. No Alternative text visible.                                                                                                  | PASS   | All                                                                          |
 
-- Exercise cards have instructions on exercise and all cards to have videos where possible - User Story: 3, 6, 7
-- Sign up form feature to join a community newsletter to find out when new exercises are released - User Story: 8, 9, 13
 
 ## Validation Testing
 
@@ -584,6 +611,24 @@ Lighthouse tool showed that there could be further improvements made on the perf
 </details>
 
 <br>
+
+## Bugs
+
+---
+
+The bugs that i found whilst creating this project where in getting the images and videos to be the correct size in the exercise cards.
+
+Whilst developing this site I came across a few bugs/issues with the code written. I have listed the bugs and the fixes where possible.
+
+- Exercise Card Sizing
+
+ I was able to resolve the bug that was found in the exercise cards incorrectly resting when opened on different screen sizes. This was resolved through the use of Bootstrap.
+
+- Exercise Card Video Sizing
+
+ The exercise video for V-Crunches I was not able to resize the video to fit the length of the card without it distorting the video aspect ratio. I was not able to fix this bug.
+
+ The Push-ups video was another video that I was not able to get to stretch to be the same length as the other videos within the Burn category.
 
 ## Deployment
 

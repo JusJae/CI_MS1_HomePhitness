@@ -37,5 +37,8 @@
       "Balsamiq"
    ],
    "emmet.triggerExpansionOnTab": true,
-   "html-css-class-completion.enableEmmetSupport": true
+   "html-css-class-completion.enableEmmetSupport": true,
+   "[markdown]": {
+      "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+   }
 }
