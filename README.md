@@ -509,6 +509,10 @@ I have looked at the features that the site offers and how it works in anticipat
 
 ### Manual Testing
 
+<details>
+<summary>Manual Testing Table</summary>
+
+
 | Test                                     | Steps                                                                                                                                                                                                                                                          | Expected Outcome                                                                                                                                                                                                                                           | Result | Features Exercised                                                           |
 | ---------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ | ---------------------------------------------------------------------------- |
 | Navigation - Navbar                      | Go to Home page, click on each of the navbar links Home/About Us/Exercises/Contact, repeat this test for all pages.                                                                                                                                            | Link works correctly and user is brought to the correct page each time.                                                                                                                                                                                    | PASS   | Navigation bar/Toggle dropdown                                               |
@@ -528,6 +532,11 @@ I have looked at the features that the site offers and how it works in anticipat
 | 404 Page                                 | User types in the URL address to thje site incorrectly.                                                                                                                                                                                                        | User is taken to the Error 404 page and link is clickable to take back to home page.                                                                                                                                                                       | PASS   | Error: 404 Page                                                              |
 | UX - Responsiveness                      | Repeat all above tests for desktop, tablet and smartphone screens sizes.<br>a. Laptop 1920 x 1080<br>b. Destop Ultrawide 2560 x 1080<br>c. Tablet 810 x 1012<br>d. Larger tablet 1024 x 1294<br>e. Large Smartphone 428 x 926<br>f. Small Smartphone 320 x 449 | Verify expected outcomes for each test match original expected outcome.<br>Screens should re-size so that text remains visible, positioning of screen items (text, images, buttons, input fields etc.) all remain visible and do not overlap unexpectedly. | PASS   | All                                                                          |
 | UX - Browser compatibility               | Repeat all the above tests for the following browsers:<br>\- Firefox<br>\- Google Chrome<br>\- Safari<br>\- Opera                                                                                                                                              | Verify expected outcomes match that of original expected outcomes. Everything is visible and has been re-sized where needed. No Alternative text visible.                                                                                                  | PASS   | All                                                                          |
+
+![Footer](docs/features/f-footer.png)
+
+</details>
+<br>
 
 
 ## Validation Testing
